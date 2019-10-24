@@ -8,7 +8,7 @@ body{
 
 #person{
   position: fixed;
-    background: url(../img/tmp.PNG) center center #000;
+    background: url(../img/fon.png) center center #000;
     background-size: cover;
     width: 45%;
     height: 100%;
@@ -29,6 +29,19 @@ body{
 
 
 li{
-    width: 30%;
-    height: 270px !important;
+    width: 90%;
+    height: 30% !important;
+    border: 1px solid black;
+}
+
+.da-thumbs li{
+  margin: 15px !important;
+}
+
+#name-container{
+  font-size: 3em;
+  position: absolute;
+  bottom:2%;
+  width: 100%;
+  background-color: grey;
 }
