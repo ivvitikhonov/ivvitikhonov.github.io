@@ -1,47 +1,25 @@
 body{
-  overflow-x: hidden;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  height: 100%;  
   width: 100%;
-  overflow-y: scroll;
 }
 
-#person{
-  position: fixed;
-    background: url(../img/fon.png) center center #000;
-    background-size: cover;
-    width: 45%;
-    height: 100%;
-    float: left;
-    z-index: 100;
-    border: 1px solid black;
-}
 
-#resume{
+#about-container{
+  height: 100vh;
+  background-color: orange;
   position: relative;
-  width: 55%;
-  float: right;
-  overflow: visible;
-  border: 1px solid black;
-  min-height: 100%;
-  /*height: 2706px;*/
 }
 
-
-li{
-    width: 90%;
-    height: 30% !important;
-    border: 1px solid black;
-}
-
-.da-thumbs li{
-  margin: 15px !important;
-}
-
-#name-container{
-  font-size: 3em;
+#about{
+  width: 1200px;
+  height: 70%;
+  margin: 0;
   position: absolute;
-  bottom:2%;
-  width: 100%;
-  background-color: grey;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
 }
