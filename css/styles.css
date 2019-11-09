@@ -51,14 +51,34 @@ body{
   float: left;
 }
 
-#personal-info{
+#personal_text{
   color: #181e52;
-  height: 600px;
-  font-size: 70px;
-  font-weight: bold;
-  width: 600px;
+  /*height: 600px;*/
+ /* position: absolute;
+ /* top: 50%;
+  left: 50%;*/
+  padding-left: 50px;
+  /*width: 600px;*/
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#personal_text-name{
   position: absolute;
   top: 50%;
-  left: 50%;
-  padding-left: 50px;
+  transform: translateY(-50%);
+  
+
+
+
+}
+
+#name{
+  font-size: 70px;
+  font-weight: bold;
+  display: block;
+}
+
+#description{
+  font-size: 25px;
 }
