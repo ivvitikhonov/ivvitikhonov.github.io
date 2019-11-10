@@ -13,7 +13,7 @@ body{
 }
 
 #about{
-  width: 1200px;
+  width: 1400px;
   height: 600px;
   margin: 0;
   position: absolute;
@@ -30,7 +30,7 @@ body{
   height: 100vh;
 }
 
-#education{
+/* #education{
   width: 1200px;
   height: 600px;
   margin: 0;
@@ -40,14 +40,14 @@ body{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   border: 1px solid black;
-}
+} */
 
 #photo{
   background-color: white;
   background-image: url('../img/me.png');
   border-radius: 50%;
-  height: 600px;
-  width: 600px;
+  height: 100%; /*600px;*/
+  width: 45%; /*600px;*/
   float: left;
 }
 
@@ -61,6 +61,7 @@ body{
   /*width: 600px;*/
   display: table-cell;
   vertical-align: middle;
+  width: 55%;
 }
 
 #personal_text-name{
@@ -74,11 +75,13 @@ body{
 }
 
 #name{
+  font-family: 'Rubik', sans-serif;
   font-size: 70px;
   font-weight: bold;
   display: block;
 }
 
 #description{
-  font-size: 25px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
 }
