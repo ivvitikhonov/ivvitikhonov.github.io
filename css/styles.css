@@ -6,50 +6,38 @@ html{
 body{
   min-height: 100%;
   margin: 0;
+  background-color:#f0f0f0;
 }
 
 main{
-  min-height: 100vh;
+  min-height: 80vh;
   display: block;
 }
 
 .section{
-  background-color:#ffe7d2;
-  padding: 30px 0;
-}
-
-.container{
-  margin-top: 100px;
+  margin-top: 110px;
   margin-bottom: 100px;
+  padding-left: 0;
+  padding-right: 0;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  clear: both;
+  overflow: hidden;
+}
+
+.container{
   padding: 0 25px;
   box-sizing: border-box;
   height: 600px;
 }
 
-.img{
+img{
   background-color: white;
-  border-radius: 50%;
-  width: 500px;
-  height: 500px;
-  float: left;
-}
-
-.img-left{
-  float: left;
-}
-
-.img-left img{
   max-width: 500px;
+  width: 100%;
   height: auto;
-}
-
-#about-container{
-  height: 100%;
-  margin: auto;
-  background-color:#ff8c00;
+  border-radius: 50%;
 }
 
 .left-block{
@@ -59,9 +47,16 @@ main{
   height: 500px;
 }
 
-.right-text-container{
-  max-width: 550px;
-  float:right;
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+
+.text-container{
+  max-width: 600px;
 }
 
 .fs50{
@@ -76,34 +71,44 @@ main{
   font-weight: bold;
 }
 
-#photo{
-  background-color: #d9d9d9;
-  /* background-image: url('../img/me_500.png'); */
-  border-radius: 50%;
-  height: 100%; /*600px;*/
-  width: 45%; /*600px;*/
-  float: left;
-}
-
-
-#personal_text{
-  position: absolute;
-  top: 48%;
-  transform: translateY(-50%);
-  color: #ff8c00;
-  width: 45%;
-  left: 50%;
-}
-
-#name{
-  font-family: 'Rubik', sans-serif;
-  font-size: 70px;
-  font-weight: bold;
-  display: block;
-  padding-bottom: 10px;
-}
-
-
 .description{
   line-height: 1.4;
+}
+
+header{
+  height: 75px;
+  background-color: antiquewhite;
+}
+
+.header{
+  display: block;
+  font-weight: bold;
+  color: #181e52;
+  font-size:50px;
+  padding-bottom: 20px;
+}
+
+.my-info{
+  padding: 70px 0;
+}
+
+.btn{
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  font-size: .875rem;
+  background: #30488f;
+  border-radius: 7px;
+  border: none;
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.socials{
+  padding: 50px 0;
+}
+
+.fb{
+  background-image: url('/img/icon/facebook.png');
 }
