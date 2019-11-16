@@ -1,47 +1,128 @@
+html{
+/*   height: 100%; */
+  font-family: Rubik, sans-serif;
+}
+
 body{
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-y: scroll;
-}
-
-#person{
-  position: fixed;
-    background: url(../img/fon.png) center center #000;
-    background-size: cover;
-    width: 45%;
-    height: 100%;
-    float: left;
-    z-index: 100;
-    border: 1px solid black;
-}
-
-#resume{
-  position: relative;
-  width: 55%;
-  float: right;
-  overflow: visible;
-  border: 1px solid black;
   min-height: 100%;
-  /*height: 2706px;*/
+  margin: 0;
+  background-color:#f0f0f0;
 }
 
-
-li{
-    width: 90%;
-    height: 30% !important;
-    border: 1px solid black;
+main{
+  min-height: 80vh;
+  display: block;
 }
 
-.da-thumbs li{
-  margin: 15px !important;
+.section{
+  padding-top: 150px;
+  margin-bottom: 100px;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  overflow: hidden;
 }
 
-#name-container{
-  font-size: 3em;
-  position: absolute;
-  bottom:2%;
+.container{
+  padding: 0 25px;
+  box-sizing: border-box;
+  height: 600px;
+}
+
+img{
+  background-color: white;
+  max-width: 500px;
   width: 100%;
-  background-color: grey;
+  height: auto;
+  border-radius: 50%;
+}
+
+.left-block{
+  float: left;
+  max-width: 500px !important;
+  background-color: #d9d9d9;
+  height: 500px;
+}
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+
+.text-container{
+  max-width: 600px;
+}
+
+.fs50{
+  font-size:50px;
+}
+
+.fs25{
+  font-size:25px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.description{
+  line-height: 1.4;
+}
+
+header{
+  height: 75px;
+  background-color: antiquewhite;
+}
+
+.header{
+  display: block;
+  font-weight: bold;
+  color: #181e52;
+  font-size:50px;
+  padding-bottom: 20px;
+}
+
+.my-info{
+  padding: 70px 0;
+}
+
+.btn{
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  font-size: .875rem;
+  background: #ff8c00; /*#30488f;*/
+  border-radius: 7px;
+  border: none;
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.socials{
+  padding: 50px 0;
+}
+
+.fb{
+  background-image: url('../img/icon/facebook.png');
+}
+
+.email{
+  background-image: url('../img/icon/mail.png');
+}
+
+.li{
+  background-image: url('../img/icon/linkedin.png');
+}
+
+.hh{
+  background-image: url('../img/icon/resume.png');
 }
