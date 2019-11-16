@@ -1,5 +1,4 @@
 html{
-/*   height: 100%; */
   font-family: Rubik, sans-serif;
 }
 
@@ -40,12 +39,12 @@ img{
   border-radius: 50%;
 }
 
-.left-block{
+/* .left-block{
   float: left;
   max-width: 500px !important;
   background-color: #d9d9d9;
   height: 500px;
-}
+} */
 
 .right{
   float: right;
@@ -72,7 +71,7 @@ img{
 }
 
 .description{
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 header{
@@ -97,7 +96,7 @@ header{
   width: 50px;
   color: #fff;
   font-size: .875rem;
-  background: #ff8c00; /*#30488f;*/
+  background: #ff8c00;
   border-radius: 7px;
   border: none;
   position: relative;
