@@ -1,5 +1,5 @@
 html{
-  height: 100%;
+/*   height: 100%; */
   font-family: Rubik, sans-serif;
 }
 
@@ -15,7 +15,7 @@ main{
 }
 
 .section{
-  margin-top: 110px;
+  padding-top: 150px;
   margin-bottom: 100px;
   padding-left: 0;
   padding-right: 0;
@@ -97,12 +97,14 @@ header{
   width: 50px;
   color: #fff;
   font-size: .875rem;
-  background: #30488f;
+  background: #ff8c00; /*#30488f;*/
   border-radius: 7px;
   border: none;
   position: relative;
   display: inline-block;
   margin-right: 20px;
+  background-size: contain;
+  cursor: pointer;
 }
 
 .socials{
@@ -110,5 +112,17 @@ header{
 }
 
 .fb{
-  background-image: url('/img/icon/facebook.png');
+  background-image: url('../img/icon/facebook.png');
+}
+
+.email{
+  background-image: url('../img/icon/mail.png');
+}
+
+.li{
+  background-image: url('../img/icon/linkedin.png');
+}
+
+.hh{
+  background-image: url('../img/icon/resume.png');
 }
