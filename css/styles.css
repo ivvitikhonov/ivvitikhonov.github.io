@@ -39,13 +39,6 @@ img{
   border-radius: 50%;
 }
 
-/* .left-block{
-  float: left;
-  max-width: 500px !important;
-  background-color: #d9d9d9;
-  height: 500px;
-} */
-
 .right{
   float: right;
 }
@@ -124,4 +117,26 @@ header{
 
 .hh{
   background-image: url('../img/icon/resume.png');
+}
+
+@media screen and (max-width: 1200px) {
+  figure{
+    float: none !important;
+    padding: 0 25%;
+  }
+
+  .text-container{
+    float: none !important;
+    padding: 0 10%;
+    max-width: 100%;
+  }
+
+  .section{
+    padding-top: 20px;
+  }
+
+  .copy{
+    display: block;
+    padding: 50px 0;
+  }
 }
