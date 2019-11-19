@@ -120,30 +120,34 @@ header{
 }
 
 @media screen and (max-width: 1200px) {
-  figure{
-    float: none !important;
-    padding: 0 25%;
-  }
-
   .text-container{
-    float: none !important;
     padding: 0 10%;
-    max-width: 100%;
   }
 
   .section{
     padding-top: 20px;
+    margin-bottom: 0px !important;
+  }
+
+  .header{
+    font-size: 30px !important;
+  }
+
+  .description{
+    font-size: 18px !important;
   }
 
   .copy{
     display: block;
-    padding: 80px 0 30px;
+    padding: 40px 0 10px;
     text-align: right;
   }
 
   .btn{
-    height: 100px;
-    width: 100px;
-    margin-right: 50px;
+    display: inline-block;
+  }
+
+  .socials{
+    padding: 30px 0 0;
   }
 }
