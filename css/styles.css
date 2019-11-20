@@ -99,6 +99,11 @@ header{
   cursor: pointer;
 }
 
+/* Переделать!!! */
+.fb{
+  margin-right: 0px;
+}
+
 .socials{
   padding: 50px 0;
 }
@@ -145,6 +150,8 @@ header{
 
   .btn{
     display: inline-block;
+    height: 40px;
+    width:40px;
   }
 
   .socials{
