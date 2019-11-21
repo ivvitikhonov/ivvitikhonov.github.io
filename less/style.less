@@ -1,0 +1,146 @@
+html{
+    font-family: Rubik, sans-serif;
+}
+
+body{
+    min-height: 100%;
+    margin: 0;
+    background-color:#f0f0f0;
+  }
+
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page__section{
+    // padding-top: 150px;
+    // margin-bottom: 100px;
+    // padding-left: 0;
+    // padding-right: 0;
+    max-width: 1200px;
+    clear: both;
+    // margin: auto;
+    // position: absolute;
+    // top:0;
+    // bottom:0;
+
+    &_content{
+        &-left{
+            float: left;
+        }
+
+        &-right{
+            float: right;
+        }
+
+        &-me{
+            padding: 50px 0;
+            max-width: 600px;
+        }
+    }
+  }
+
+.me{
+    &__photo{
+        background-color: white;
+        max-width: 500px;
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    &__name{
+        display: block;
+        font-weight: bold;
+        color: #181e52;
+        font-size:50px;
+        padding-bottom: 20px;
+    }
+
+    &__description{
+        line-height: 1.4;
+        margin: 10px 0;
+        font-weight: bold;
+        font-size:25px;
+        padding-left: 2px;
+    }
+}
+
+.socials{
+
+    padding: 30px 0 0;
+
+    a:last-child{
+        margin-right: 0;
+    }
+
+    &__btn{
+        height: 50px;
+        width: 50px;
+        color: #fff;
+        font-size: .875rem;
+        background: #ff8c00;
+        border-radius: 7px;
+        border: none;
+        position: relative;
+        display: inline-block;
+        margin-right: 30px;
+        background-size: contain;
+    
+        &-hh{
+            background-image: url('../img/icon/resume.png');
+        }
+
+        &-email{
+            background-image: url('../img/icon/mail.png');
+        }
+
+        &-li{
+            background-image: url('../img/icon/linkedin.png');
+        }
+
+        &-fb{
+            background-image: url('../img/icon/facebook.png');
+        }
+    }
+}
+
+.copy{
+    text-align: right;
+}
+
+@media screen and (max-width: 1200px) {   
+     .page__section{
+         padding: 10px 10% 0;
+         margin-bottom: 0;
+         max-width: 600px;
+     }
+
+     .page__section_content-me{
+         padding: 0;
+     }
+  
+    .me__name{
+      font-size: 30px;
+      padding: 10px 0;
+    }
+  
+    .me__description{
+      font-size: 18px;
+    }
+  
+    .copy{
+      display: block;
+      padding: 40px 0 10px;
+      text-align: right;
+    }
+  
+    .socials__btn{
+      display: inline-block;
+      margin-right: 12px;;
+    }
+  }
