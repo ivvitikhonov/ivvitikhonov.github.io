@@ -17,6 +17,9 @@ main {
   max-width: 1200px;
   clear: both;
 }
+.page__section_title {
+  font-size: medium;
+}
 .page__section_content-left {
   float: left;
 }
@@ -81,6 +84,65 @@ main {
 }
 .copy {
   text-align: right;
+}
+.tools__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tools__group {
+  border: 1px solid gray;
+  padding: 40px;
+  /* 
+        .vscode{
+           
+        } */
+}
+.tools__group-title {
+  color: #181e52;
+  font-weight: bold;
+  font-size: 20px;
+}
+.tools__group-item {
+  width: 128px;
+  height: 128px;
+  background-repeat: no-repeat;
+  padding: 30px 0;
+}
+.tools__group-item .tool__logo {
+  width: 128px;
+  height: 128px;
+  background-repeat: no-repeat;
+}
+.tools__group-item .tool__logo.win10 {
+  background-image: url('../img/tools/win10_128.png');
+  content: "fsdfsd";
+}
+.tools__group-item .tool__use {
+  height: 20px;
+  width: 128px;
+  background-color: lime;
+  border-radius: 20px;
+}
+.tools__group-item.ubuntu {
+  background-image: url('../img/tools/ubuntu_128.png');
+}
+.tools__group-item.centos {
+  background-image: url('../img/tools/centos_128.png');
+}
+.tools__group-item.vs {
+  background-image: url('../img/tools/vs_128.png');
+}
+.tools__group-item.vscode {
+  background-image: url('../img/tools/vscode_128.png');
+}
+.tools__group-item.sqlserver {
+  background-image: url('../img/tools/sqlserver_128.png');
+}
+.tools__group-item.postgres {
+  background-image: url('../img/tools/postgres_128.png');
+}
+.tools__group-item.redis {
+  background-image: url('../img/tools/redis_128.png');
 }
 @media screen and (max-width: 1200px) {
   .page__section {
