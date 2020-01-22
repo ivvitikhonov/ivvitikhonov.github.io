@@ -90,7 +90,7 @@ main {
   flex-wrap: wrap;
 }
 .tools__group {
-  border: 1px solid gray;
+  border: 1px solid #ff8c00;
   padding: 40px;
   /* 
         .vscode{
@@ -116,16 +116,12 @@ main {
 }
 .tools__group-item .tool__logo.win10 {
   background-image: url('../img/tools/win10_64.png');
-  content: "fsdfsd";
 }
 .tools__group-item .tool__use {
   height: 20px;
   width: 128px;
   background-color: lime;
   border-radius: 20px;
-}
-.tools__group-item.win-server {
-  background-image: url('../img/tools/win-server_64.png');
 }
 .tools__group-item.ubuntu {
   background-image: url('../img/tools/ubuntu_64.png');
@@ -166,9 +162,6 @@ main {
 .tools__group-item.postman {
   background-image: url('../img/tools/postman_64.png');
 }
-.tools__group-item.soapui {
-  background-image: url('../img/tools/soapui_64.png');
-}
 .tools__group-item.tfs {
   background-image: url('../img/tools/tfs_64.png');
 }
@@ -183,6 +176,15 @@ main {
 }
 .tools__group-item.staruml {
   background-image: url('../img/tools/staruml_64.png');
+}
+.tools__group-item.ps {
+  background-image: url('../img/tools/ps_64.png');
+}
+.tools__group-item.jira {
+  background-image: url('../img/tools/jira_64.png');
+}
+.tools__group-item.office {
+  background-image: url('../img/tools/office_64.png');
 }
 @media screen and (max-width: 1200px) {
   .page__section {
