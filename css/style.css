@@ -90,7 +90,7 @@ main {
   flex-wrap: wrap;
 }
 .tools__group {
-  border: 1px solid #ff8c00;
+  /* border: 1px solid  #ff8c00; */
   padding: 40px;
   /* 
         .vscode{
@@ -98,16 +98,15 @@ main {
         } */
 }
 .tools__group-title {
-  color: #181e52;
+  color: #ff8c00;
   font-weight: bold;
   font-size: 20px;
 }
 .tools__group-item {
-  width: 80px;
-  height: 80px;
+  /*             width: 80px;
+            height: 80px; */
   background-repeat: no-repeat;
-  /* padding: 30px 0;
- */
+  padding: 15px 0;
 }
 .tools__group-item .tool__logo {
   width: 80px;
@@ -117,74 +116,79 @@ main {
 .tools__group-item .tool__logo.win10 {
   background-image: url('../img/tools/win10_64.png');
 }
+.tools__group-item .tool__logo.ubuntu {
+  background-image: url('../img/tools/ubuntu_64.png');
+}
+.tools__group-item .tool__logo.centos {
+  background-image: url('../img/tools/centos_64.png');
+}
+.tools__group-item .tool__logo.vs {
+  background-image: url('../img/tools/vs_64.png');
+}
+.tools__group-item .tool__logo.vscode {
+  background-image: url('../img/tools/vscode_64.png');
+}
+.tools__group-item .tool__logo.sqlserver {
+  background-image: url('../img/tools/sqlserver_64.png');
+}
+.tools__group-item .tool__logo.postgres {
+  background-image: url('../img/tools/postgres_64.png');
+}
+.tools__group-item .tool__logo.redis {
+  background-image: url('../img/tools/redis_64.png');
+}
+.tools__group-item .tool__logo.iis {
+  background-image: url('../img/tools/iis_64.png');
+}
+.tools__group-item .tool__logo.apache {
+  background-image: url('../img/tools/apache_64.png');
+}
+.tools__group-item .tool__logo.vmware {
+  background-image: url('../img/tools/vmware_64.png');
+}
+.tools__group-item .tool__logo.vb {
+  background-image: url('../img/tools/vb_64.png');
+}
+.tools__group-item .tool__logo.fiddler {
+  background-image: url('../img/tools/fiddler_64.png');
+}
+.tools__group-item .tool__logo.postman {
+  background-image: url('../img/tools/postman_64.png');
+}
+.tools__group-item .tool__logo.tfs {
+  background-image: url('../img/tools/tfs_64.png');
+}
+.tools__group-item .tool__logo.git {
+  background-image: url('../img/tools/git_64.png');
+}
+.tools__group-item .tool__logo.github {
+  background-image: url('../img/tools/github_64.png');
+}
+.tools__group-item .tool__logo.visio {
+  background-image: url('../img/tools/visio_64.png');
+}
+.tools__group-item .tool__logo.staruml {
+  background-image: url('../img/tools/staruml_64.png');
+}
+.tools__group-item .tool__logo.ps {
+  background-image: url('../img/tools/ps_64.png');
+}
+.tools__group-item .tool__logo.jira {
+  background-image: url('../img/tools/jira_64.png');
+}
+.tools__group-item .tool__logo.office {
+  background-image: url('../img/tools/office_64.png');
+}
 .tools__group-item .tool__use {
   height: 20px;
   width: 128px;
   background-color: lime;
   border-radius: 20px;
 }
-.tools__group-item.ubuntu {
-  background-image: url('../img/tools/ubuntu_64.png');
-}
-.tools__group-item.centos {
-  background-image: url('../img/tools/centos_64.png');
-}
-.tools__group-item.vs {
-  background-image: url('../img/tools/vs_64.png');
-}
-.tools__group-item.vscode {
-  background-image: url('../img/tools/vscode_64.png');
-}
-.tools__group-item.sqlserver {
-  background-image: url('../img/tools/sqlserver_64.png');
-}
-.tools__group-item.postgres {
-  background-image: url('../img/tools/postgres_64.png');
-}
-.tools__group-item.redis {
-  background-image: url('../img/tools/redis_64.png');
-}
-.tools__group-item.iis {
-  background-image: url('../img/tools/iis_64.png');
-}
-.tools__group-item.apache {
-  background-image: url('../img/tools/apache_64.png');
-}
-.tools__group-item.vmware {
-  background-image: url('../img/tools/vmware_64.png');
-}
-.tools__group-item.vb {
-  background-image: url('../img/tools/vb_64.png');
-}
-.tools__group-item.fiddler {
-  background-image: url('../img/tools/fiddler_64.png');
-}
-.tools__group-item.postman {
-  background-image: url('../img/tools/postman_64.png');
-}
-.tools__group-item.tfs {
-  background-image: url('../img/tools/tfs_64.png');
-}
-.tools__group-item.git {
-  background-image: url('../img/tools/git_64.png');
-}
-.tools__group-item.github {
-  background-image: url('../img/tools/github_64.png');
-}
-.tools__group-item.visio {
-  background-image: url('../img/tools/visio_64.png');
-}
-.tools__group-item.staruml {
-  background-image: url('../img/tools/staruml_64.png');
-}
-.tools__group-item.ps {
-  background-image: url('../img/tools/ps_64.png');
-}
-.tools__group-item.jira {
-  background-image: url('../img/tools/jira_64.png');
-}
-.tools__group-item.office {
-  background-image: url('../img/tools/office_64.png');
+.tools__group-item .tool__title {
+  color: #181e52;
+  font-weight: bold;
+  font-size: 16px;
 }
 @media screen and (max-width: 1200px) {
   .page__section {
