@@ -4,9 +4,16 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Less Compile",
+            "label": "Style Less Compile",
             "type": "shell",
             "command": "lessc less/style.less css/style.css",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Tools Less Compile",
+            "type": "shell",
+            "command": "lessc less/tools.less css/tools.css",
             "group": "build",
             "problemMatcher": []
         }
