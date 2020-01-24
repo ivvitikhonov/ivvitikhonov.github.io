@@ -14,88 +14,25 @@ main {
   align-items: center;
 }
 .page__section {
+  padding-top: 40px;
+  /*     border-top: 5px solid orange; */
+  /*     border-bottom: 5px solid #181e52; */
   max-width: 1200px;
   clear: both;
 }
-.page__section_title {
-  font-size: medium;
-}
-.page__section_content-left {
-  float: left;
-}
-.page__section_content-right {
-  float: right;
-}
-.page__section_content-me {
-  padding: 50px 0;
-  max-width: 600px;
-}
-.me__photo {
-  background-color: white;
-  max-width: 500px;
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-}
-.me__name {
-  display: block;
+.page__section-title {
+  font-size: 25px;
   font-weight: bold;
   color: #181e52;
-  font-size: 50px;
-  padding-bottom: 20px;
-}
-.me__description {
-  line-height: 1.4;
-  margin: 10px 0;
-  font-weight: bold;
-  font-size: 25px;
-  padding-left: 2px;
-}
-.socials {
-  padding: 30px 0 0;
-}
-.socials a:last-child {
-  margin-right: 0;
-}
-.socials__btn {
-  height: 50px;
-  width: 50px;
-  color: #fff;
-  font-size: 0.875rem;
-  background: #ff8c00;
-  border-radius: 7px;
-  border: none;
-  position: relative;
-  display: inline-block;
-  margin-right: 30px;
-  background-size: contain;
-}
-.socials__btn-hh {
-  background-image: url('../img/icon/resume.png');
-}
-.socials__btn-email {
-  background-image: url('../img/icon/mail.png');
-}
-.socials__btn-li {
-  background-image: url('../img/icon/linkedin.png');
-}
-.socials__btn-fb {
-  background-image: url('../img/icon/facebook.png');
-}
-.copy {
-  text-align: right;
+  border-bottom: 2px solid;
 }
 .tools__container {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 15px;
 }
 .tools__group {
-  /* border: 1px solid  #ff8c00; */
-  padding: 40px;
-  /* 
-        .vscode{
-           
-        } */
+  padding: 20px 40px;
 }
 .tools__group-title {
   color: #ff8c00;
@@ -103,8 +40,6 @@ main {
   font-size: 20px;
 }
 .tools__group-item {
-  /*             width: 80px;
-            height: 80px; */
   background-repeat: no-repeat;
   padding: 15px 0;
 }
@@ -179,6 +114,9 @@ main {
 .tools__group-item .tool__logo.office {
   background-image: url('../img/tools/office_64.png');
 }
+.tools__group-item .tool__logo.sp {
+  background-image: url('../img/tools/sp_64.png');
+}
 .tools__group-item .tool__use {
   height: 20px;
   width: 128px;
@@ -186,7 +124,7 @@ main {
   border-radius: 20px;
 }
 .tools__group-item .tool__title {
-  color: #181e52;
+  color: black;
   font-weight: bold;
   font-size: 16px;
 }
