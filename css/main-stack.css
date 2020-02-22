@@ -1,0 +1,63 @@
+/* Common */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.page__section {
+  width: 1200px;
+}
+/* main-stack */
+.main-stack {
+  text-align: center;
+}
+.main-stack__row {
+  height: 50px;
+  border: 1px solid orange;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  /*         line-height: 3; */
+}
+.main-stack__row span {
+  vertical-align: -webkit-baseline-middle;
+}
+.main-stack__row.win {
+  width: 70%;
+}
+.main-stack__row.lin {
+  width: 30%;
+}
+.main-stack__row.csharp {
+  width: 100%;
+}
+.main-stack__row.sp,
+.main-stack__row.net-mvc,
+.main-stack__row.win-forms {
+  width: 15%;
+}
+.main-stack__row.net-core {
+  width: 65%;
+}
+.main-stack__row.ef {
+  width: 42%;
+}
+.main-stack__row.ado-net {
+  width: 28%;
+}
+.main-stack__row.ef-core,
+.main-stack__row.se-redis {
+  width: 15%;
+}
+.main-stack__row.ms-sql {
+  width: 60%;
+}
+.main-stack__row.pg {
+  width: 40%;
+}
+.main-stack__row.web {
+  width: 100%;
+}
+.main-stack__row.redis {
+  width: 20%;
+}

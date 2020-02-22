@@ -16,6 +16,13 @@
             "command": "lessc less/tools.less css/tools.css",
             "group": "build",
             "problemMatcher": []
+        },
+        {
+            "label": "Main-stack",
+            "type": "shell",
+            "command": "lessc less/main-stack.less css/main-stack.css",
+            "group": "build",
+            "problemMatcher": []
         }
     ]
 }

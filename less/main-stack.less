@@ -1,0 +1,77 @@
+/* Common */
+.flex{
+    &-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &-row{
+
+    }
+}
+
+.page__section{
+    width: 1200px;
+}
+
+/* main-stack */
+.main-stack{
+    text-align: center;
+
+    &__row{
+        height: 50px;
+        border: 1px solid orange;
+        padding: 20px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+
+        &.win{
+            width: 70%;
+        }
+
+        &.lin{
+            width: 30%;
+        }
+
+        &.csharp{
+            width:100%;
+        }
+
+        &.sp, &.net-mvc, &.win-forms{
+            width: 15%;
+        }
+
+        &.net-core{
+            width: 65%;
+        }
+
+        &.ef{
+            width: 42%;
+        } 
+        
+        &.ado-net{
+           width: 28%;
+        }
+
+        &.ef-core, &.se-redis{
+            width: 15%;
+        }
+
+        &.ms-sql{
+            width: 60%;
+        }
+
+        &.pg{
+            width: 40%;
+        }
+
+        &.web{
+            width: 100%;
+        }
+
+        &.redis{
+            width: 20%;
+        }
+    }
+}
