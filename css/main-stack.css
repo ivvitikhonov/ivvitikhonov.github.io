@@ -4,12 +4,10 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.page__section {
-  width: 1200px;
-}
 /* main-stack */
 .main-stack {
   text-align: center;
+  margin-top: 15px;
 }
 .main-stack__row {
   height: 50px;
@@ -17,10 +15,6 @@
   padding: 20px;
   margin-bottom: 10px;
   margin-right: 10px;
-  /*         line-height: 3; */
-}
-.main-stack__row span {
-  vertical-align: -webkit-baseline-middle;
 }
 .main-stack__row.win {
   width: 70%;

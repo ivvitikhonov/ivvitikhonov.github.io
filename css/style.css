@@ -14,6 +14,7 @@ main {
   align-items: center;
 }
 .page__section {
+  width: 1200px;
   max-width: 1200px;
   clear: both;
 }
@@ -26,6 +27,12 @@ main {
 .page__section_content-me {
   padding: 50px 0;
   max-width: 600px;
+}
+.page__section-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #181e52;
+  border-bottom: 2px solid;
 }
 .me__photo {
   background-color: white;
