@@ -1,0 +1,105 @@
+/* Common */
+.flex{
+    &-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &-row{
+
+    }
+}
+
+/* main-stack */
+.main-stack{
+    text-align: center;
+    margin-top: 15px;
+
+    &__row{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 50px;
+        border: 2px solid rgb(255,193,71);
+        padding: 20px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        background: rgb(255,165,71);
+        font-size: 18px;
+        font-weight: bold;
+
+        &.ls3{
+            background: rgb(255,193,71);
+            border: 2px solid rgb(255,165,71);
+        }
+
+        &.win{
+            width: 70%;
+        }
+
+        &.lin{
+            width: 30%;
+        }
+
+        &.csharp{
+            width:100%;
+        }
+
+        &.sp, &.net-mvc, &.win-forms{
+            width: 15%;
+        }
+
+        &.net-core{
+            width: 65%;
+        }
+
+        &.ef{
+            width: 42%;
+        } 
+        
+        &.ado-net{
+           width: 28%;
+        }
+
+        &.ef-core, &.se-redis{
+            width: 15%;
+        }
+
+        &.ms-sql{
+            width: 60%;
+        }
+
+        &.pg{
+            width: 40%;
+        }
+
+        &.web{
+            width: 100%;
+        }
+
+        &.redis{
+            width: 20%;
+        }
+    }
+
+    &_legend{
+        padding: 35px;
+        
+        .duration{
+            width: 30px;
+            height: 30px;
+            display: inline;
+            padding: 15px;
+
+            &.mr3
+            {
+                background: rgb(255,165,71); 
+            }
+
+            &.ls3{
+                background:rgb(255,193,71);
+            }
+        }
+    }
+}
