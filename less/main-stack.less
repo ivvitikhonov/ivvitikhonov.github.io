@@ -17,11 +17,22 @@
     margin-top: 15px;
 
     &__row{
+        align-items: center;
+        justify-content: center;
+        display: flex;
         height: 50px;
-        border: 1px solid orange;
+        border: 2px solid rgb(255,193,71);
         padding: 20px;
         margin-bottom: 10px;
         margin-right: 10px;
+        background: rgb(255,165,71);
+        font-size: 18px;
+        font-weight: bold;
+
+        &.ls3{
+            background: rgb(255,193,71);
+            border: 2px solid rgb(255,165,71);
+        }
 
         &.win{
             width: 70%;
@@ -69,6 +80,26 @@
 
         &.redis{
             width: 20%;
+        }
+    }
+
+    &_legend{
+        padding: 35px;
+        
+        .duration{
+            width: 30px;
+            height: 30px;
+            display: inline;
+            padding: 15px;
+
+            &.mr3
+            {
+                background: rgb(255,165,71); 
+            }
+
+            &.ls3{
+                background:rgb(255,193,71);
+            }
         }
     }
 }
