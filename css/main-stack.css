@@ -50,20 +50,18 @@
   width: 28%;
 }
 .main-stack__row.ef-core,
-.main-stack__row.se-redis {
+.main-stack__row.se-redis,
+.main-stack__row.redis {
   width: 15%;
 }
 .main-stack__row.ms-sql {
   width: 60%;
 }
 .main-stack__row.pg {
-  width: 40%;
+  width: 30%;
 }
 .main-stack__row.web {
   width: 100%;
-}
-.main-stack__row.redis {
-  width: 20%;
 }
 .main-stack_legend {
   padding: 35px;
