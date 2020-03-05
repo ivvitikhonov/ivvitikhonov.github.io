@@ -24,5 +24,13 @@
             "group": "build",
             "problemMatcher": []
         }
+        ,
+        {
+            "label": "Projects",
+            "type": "shell",
+            "command": "lessc less/projects.less css/projects.css",
+            "group": "build",
+            "problemMatcher": []
+        }
     ]
 }

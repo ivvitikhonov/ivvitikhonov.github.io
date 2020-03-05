@@ -18,6 +18,12 @@ main {
   max-width: 1200px;
   clear: both;
 }
+.page__section-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #181e52;
+  border-bottom: 2px solid;
+}
 .page__section_content-left {
   float: left;
 }
