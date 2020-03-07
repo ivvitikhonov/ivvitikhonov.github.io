@@ -27,7 +27,7 @@
   border: 2px solid #ffa547;
 }
 .main-stack__row.win {
-  width: 70%;
+  width: 61%;
 }
 .main-stack__row.lin {
   width: 30%;
@@ -38,27 +38,27 @@
 .main-stack__row.sp,
 .main-stack__row.net-mvc,
 .main-stack__row.win-forms {
-  width: 15%;
+  width: 14.3%;
 }
 .main-stack__row.net-core {
-  width: 65%;
+  width: 39.1%;
 }
 .main-stack__row.ef {
-  width: 42%;
+  width: 44%;
 }
 .main-stack__row.ado-net {
-  width: 28%;
+  width: 14%;
 }
 .main-stack__row.ef-core,
 .main-stack__row.se-redis,
 .main-stack__row.redis {
-  width: 15%;
+  width: 12%;
 }
 .main-stack__row.ms-sql {
-  width: 60%;
+  width: 53.5%;
 }
 .main-stack__row.pg {
-  width: 30%;
+  width: 21%;
 }
 .main-stack__row.web {
   width: 100%;
