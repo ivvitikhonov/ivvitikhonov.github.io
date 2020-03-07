@@ -6,6 +6,7 @@
   width: 45%;
   align-items: center;
   display: flex;
+  align-items: flex-start;
   padding: 20px;
   margin-bottom: 10px;
   margin-right: 10px;
@@ -20,7 +21,7 @@
 }
 .projects__row li:before {
   content: "✔";
-  color: lightgreen;
+  color: limegreen;
   font-weight: bold;
   padding-right: 10px;
   font-size: 20px;
@@ -33,7 +34,7 @@
 }
 .projects__row-description {
   text-align: left;
-  font-size: 16px;
+  font-size: 18px;
 }
 .projects__row .title {
   font-size: 30px;
