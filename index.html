@@ -11,6 +11,8 @@
         <link rel="stylesheet" type="text/css" href="css/projects.css" />
         <link rel="stylesheet" type="text/css" href="css/tools.css" />
         <link rel="shortcut icon" href="img/favicon_transp.ico" type="image/x-icon">
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/code.js"></script>
         <title>
                 Van ki Hot
         </title>
@@ -18,7 +20,7 @@
 </head>
 
 <body>
-        <!--        <header></header> -->
+        <a id="btn_up"></a>
         <main>
                 <section class="page__section">
                         <figure class="page__section_content-left">
@@ -42,10 +44,18 @@
                                 <p class="copy">&copy; ivvitikhonov, 2020 </p>
                         </div>
                 </section>
+                <div class="navigation">
+                        <ul>
+                                <li><a class="anchor" href="#tech">Технологии</a></li>
+                                <li><a class="anchor" href="#certs">Сертификация</a></li>
+                                <li><a class="anchor" href="#projects">Проекты</a></li>
+                                <li><a class="anchor" href="#soft">Software</a></li>
+                        </ul>
+                </div>
         </main>
         <main>
                 <section class="page__section">
-                        <div class="page__section-title">Основной стек технологий</div>
+                        <div class="page__section-title"><a name="tech">Основной стек технологий</a></div>
                         <div class="main-stack">
                                 <div class="flex-container">
                                         <div class="main-stack__row win">Windows</div>
@@ -85,7 +95,7 @@
         </main>
         <main>
                 <section class="page__section">
-                        <div class="page__section-title">Проекты</div>
+                        <div class="page__section-title"><a name="projects">Проекты</a></div>
                         <div class="projects">
                                 <div class="flex-container">
                                         <div class="projects__row">
@@ -153,7 +163,7 @@
         </main>
         <main>
                 <section class="page__section">
-                        <div class="page__section-title">Software</div>
+                        <div class="page__section-title"><a name="soft">Software</a></div>
                         <div class="tools__container">
                                 <div class="tools__container-column">
                                         <div class="tools__group">

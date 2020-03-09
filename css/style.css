@@ -89,6 +89,58 @@ main {
 .copy {
   text-align: right;
 }
+.navigation {
+  padding: 30px;
+  color: #181e52;
+  font-size: 25px;
+  font-weight: bold;
+}
+.navigation ul {
+  padding: 0;
+}
+.navigation ul li {
+  display: inline;
+  padding: 0 25px;
+}
+.anchor {
+  text-decoration: none;
+}
+.anchor:link,
+.anchor:visited {
+  color: #181e52;
+}
+.anchor:hover {
+  color: #ffa547;
+}
+#btn_up {
+  display: inline-block;
+  background-color: #ffa547;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#btn_up::after {
+  content: "\21EA";
+  font-size: 40px;
+  line-height: 50px;
+  color: #fff;
+}
+#btn_up:hover,
+#btn_up:active {
+  cursor: pointer;
+  background-color: #181e52;
+}
+#btn_up.show {
+  opacity: 1;
+  visibility: visible;
+}
 @media screen and (max-width: 1200px) {
   .page__section {
     padding: 10px 10% 0;
