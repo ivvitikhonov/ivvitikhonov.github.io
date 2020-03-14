@@ -79,10 +79,6 @@
   background: url(../img/courses/course_3.jpg);
   background-size: contain;
 }
-#certs #course-items .course_4 {
-  background: url(../img/courses/course_4.jpg);
-  background-size: contain;
-}
 .flex-container {
   display: flex;
   flex-direction: row;
