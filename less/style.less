@@ -21,6 +21,13 @@ main{
     max-width: 1200px;
     clear: both;
 
+    &-title{
+        font-size: 35px;
+        font-weight: bold;
+        color: #181e52;
+        border-bottom: 2px solid;
+    }
+
     &_content{
         &-left{
             float: left;
@@ -105,6 +112,67 @@ main{
 .copy{
     text-align: right;
 }
+
+.navigation{
+    padding: 30px;
+    color: #181e52;
+    font-size: 25px;
+    font-weight: bold;
+
+    ul{
+        padding: 0;
+        li{
+            display: inline;
+            padding: 0 25px;
+        }
+    }
+
+}
+
+.anchor{
+    text-decoration: none;
+
+    &:link, &:visited{
+        color: #181e52;
+    }
+
+    &:hover{
+        color: #ffa547;
+    }
+}
+
+#btn_up {
+    display: inline-block;
+    background-color: #ffa547;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+
+    &::after {
+        content: "\21EA";
+        font-size: 40px;
+        line-height: 50px;
+        color: #fff;
+      }
+
+      &:hover, &:active {
+        cursor: pointer;
+        background-color:#181e52;
+      }
+    
+      &.show {
+        opacity: 1;
+        visibility: visible;
+      }
+  }
+
 
 @media screen and (max-width: 1200px) {   
      .page__section{

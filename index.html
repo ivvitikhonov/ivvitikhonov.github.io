@@ -7,7 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap&subset=cyrillic" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/certs.css" />
         <link rel="shortcut icon" href="img/favicon_transp.ico" type="image/x-icon">
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/code.js"></script>
         <title>
                 Van ki Hot
         </title>
@@ -17,6 +20,29 @@
 <body>
         <main>
                 <section class="page__section">
+                        <div class="page__section-title"><a name="certs">Сертификация</a></div>
+                        <div id="certs">
+                                <div class="sub-titles">
+                                        <div class="sub-title" data-source="0">Сертификаты</div>
+                                        <div class="sub-title-delimiter">|</div>
+                                        <div class="sub-title" data-source="1">Курсы</div>
+                                </div>
+                                <div id="cert-items" class="flex-container" data-target="0">
+                                        <div class="cert edb-pg-a"></div>
+                                        <div class="cert mcsd"></div>
+                                        <div class="cert mcsa"></div>
+                                        <div class="cert ms489"></div>
+                                        <div class="cert ms488"></div>
+                                        <div class="cert ms486"></div>
+                                        <div class="cert ms480"></div>
+                                </div>
+                                <div id="course-items" class="flex-container hidden" data-target="1">
+                                        <div class="course course_1"></div>
+                                        <div class="course course_2"></div>
+                                        <div class="course course_3"></div>
+                                        <div class="course course_4"></div>
+                                </div>
+                        </div>
                 </section>
         </main>
 </body>
