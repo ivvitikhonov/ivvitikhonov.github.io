@@ -10,6 +10,7 @@
         <link rel="stylesheet" type="text/css" href="css/main-stack.css" />
         <link rel="stylesheet" type="text/css" href="css/projects.css" />
         <link rel="stylesheet" type="text/css" href="css/tools.css" />
+        <link rel="stylesheet" type="text/css" href="css/certs.css" />
         <link rel="shortcut icon" href="img/favicon_transp.ico" type="image/x-icon">
         <script src="js/jquery-3.4.1.min.js"></script>
         <script src="js/code.js"></script>
@@ -17,6 +18,27 @@
                 Van ki Hot
         </title>
         <meta charset="utf-8">
+
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript">
+                (function (m, e, t, r, i, k, a) {
+                m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+                        m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+                })
+                        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+                ym(61140619, "init", {
+                        clickmap: true,
+                        trackLinks: true,
+                        accurateTrackBounce: true,
+                        webvisor: true
+                });
+        </script>
+        <noscript>
+                <div><img src="https://mc.yandex.ru/watch/61140619" style="position:absolute; left:-9999px;" alt="" />
+                </div>
+        </noscript>
+        <!-- /Yandex.Metrika counter -->
 </head>
 
 <body>
@@ -32,14 +54,21 @@
                                 </span>
                                 <p class="me__description">Мне 25 лет, живу в Москве.</p>
                                 <p class="me__description">Старший fullstack-разработчик. Опыт работы более 5 лет,
-                                                специализируюсь на технологиях Microsoft и open-source решениях.</p>
+                                        специализируюсь на технологиях Microsoft и open-source решениях.</p>
                                 <p class="me__description">Магистр ИУ5 (АСОиУ) МГТУ им. Н.Э. Баумана, закончил с
                                         отличием.</p>
                                 <div class="socials">
-                                        <a class="socials__btn socials__btn-hh" href="#" title="Резюме"></a>
-                                        <a class="socials__btn socials__btn-email" href="#" title="Почта"></a>
-                                        <a class="socials__btn socials__btn-li" href="#" title="Linkedin"></a>
-                                        <a class="socials__btn socials__btn-fb" href="#" title="Facebook"></a>
+                                        <a class="socials__btn socials__btn-hh"
+                                                href="https://hh.ru/resume/0b0041b1ff03eb88200039ed1f504e67337348"
+                                                target="_blank" title="Резюме"></a>
+                                        <a class="socials__btn socials__btn-email" href="mailto:quiteman@mail.ru"
+                                                target="_blank" title="Почта"></a>
+                                        <a class="socials__btn socials__btn-li"
+                                                href="https://www.linkedin.com/in/ivvitikhonov/" target="_blank"
+                                                title="Linkedin"></a>
+                                        <a class="socials__btn socials__btn-fb"
+                                                href="https://www.facebook.com/ivvitikhonov" target="_blank"
+                                                title="Facebook"></a>
                                 </div>
                                 <p class="copy">&copy; ivvitikhonov, 2020 </p>
                         </div>
@@ -47,7 +76,7 @@
                 <div class="navigation">
                         <ul>
                                 <li><a class="anchor" href="#tech">Технологии</a></li>
-                                <li><a class="anchor" href="#certs">Сертификация</a></li>
+                                <li><a class="anchor" href="#certificates">Сертификация</a></li>
                                 <li><a class="anchor" href="#projects">Проекты</a></li>
                                 <li><a class="anchor" href="#soft">Software</a></li>
                         </ul>
@@ -89,6 +118,32 @@
                                         <p>Опыт использования</p>
                                         <div class="duration mr3">более 3-х лет</div>
                                         <div class="duration ls3">менее 3-х лет</div>
+                                </div>
+                        </div>
+                </section>
+        </main>
+        <main>
+                <section class="page__section">
+                        <div class="page__section-title"><a name="certificates">Сертификация</a></div>
+                        <div id="certs">
+                                <div class="sub-titles">
+                                        <div class="sub-title" data-source="0">Сертификаты (7)</div>
+                                        <div class="sub-title-delimiter">|</div>
+                                        <div class="sub-title" data-source="1">Курсы (3)</div>
+                                </div>
+                                <div id="cert-items" class="flex-container" data-target="0">
+                                        <div class="cert edb-pg-a"></div>
+                                        <div class="cert mcsd"></div>
+                                        <div class="cert mcsa"></div>
+                                        <div class="cert ms489"></div>
+                                        <div class="cert ms488"></div>
+                                        <div class="cert ms486"></div>
+                                        <div class="cert ms480"></div>
+                                </div>
+                                <div id="course-items" class="flex-container hidden" data-target="1">
+                                        <div class="course course_1"></div>
+                                        <div class="course course_2"></div>
+                                        <div class="course course_3"></div>
                                 </div>
                         </div>
                 </section>

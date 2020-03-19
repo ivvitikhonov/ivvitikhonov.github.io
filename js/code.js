@@ -1,30 +1,50 @@
 var JsCode = JsCode || {};
 
-JsCode = (function(){
-    var that = {};
+JsCode = (function () {
+  var that = {};
 
-    that.init = function(){
-        $(document).ready(function(){
-            var btn = $('#btn_up');
+  that.init = function () {
+    $(document).ready(function () {
+      that.initScrollButton();
+      $("#certs .sub-title").click(that.selectCertsMode);
+    });
+  }
 
-            $(window).scroll(function() {
-              if ($(window).scrollTop() > 300) {
-                btn.addClass('show');
-              } else {
-                btn.removeClass('show');
-              }
-            });
-            
-            btn.on('click', function(e) {
-              e.preventDefault();
-              $('html, body').animate({scrollTop:0}, '300');
-            });
-        });
-    }
+  that.initScrollButton = function(){
+    var btn = $('#btn_up');
 
-    return {
-        Init : that.init
-    };
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+      } else {
+        btn.removeClass('show');
+      }
+    });
+
+    btn.on('click', function (e) {
+      e.preventDefault();
+      $('html, body').animate({ scrollTop: 0 }, '300');
+    });
+  }
+
+  that.selectCertsMode = function () {
+    var $currentLink = $(this);
+
+    var targetId = $currentLink.data("source");
+    var $targetBlock = $("#certs [data-target='" + targetId + "']");
+
+    var $blocks = $("#certs [data-target]");
+    $blocks.addClass("hidden");
+
+    $("#certs [data-source]").css("color", "#ffa547");
+    $currentLink.css("color", "#181e52");
+
+    $targetBlock.removeClass("hidden");
+  }
+
+  return {
+    Init: that.init
+  };
 })();
 
 JsCode.Init();

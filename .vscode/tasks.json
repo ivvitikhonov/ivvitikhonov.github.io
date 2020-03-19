@@ -23,6 +23,13 @@
             "command": "lessc less/main-stack.less css/main-stack.css",
             "group": "build",
             "problemMatcher": []
+        },
+        {
+            "label": "Certs",
+            "type": "shell",
+            "command": "lessc less/certs.less css/certs.css",
+            "group": "build",
+            "problemMatcher": []
         }
     ]
 }
