@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap&subset=cyrillic" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/about.css" />
         <link rel="stylesheet" type="text/css" href="css/main-stack.css" />
         <link rel="stylesheet" type="text/css" href="css/projects.css" />
         <link rel="stylesheet" type="text/css" href="css/tools.css" />
@@ -22,7 +23,7 @@
         <!-- Yandex.Metrika counter -->
         <script type="text/javascript">
                 (function (m, e, t, r, i, k, a) {
-                m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+                        m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
                         m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
                 })
                         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
@@ -45,42 +46,39 @@
         <a id="btn_up"></a>
         <main>
                 <section class="page__section">
-                        <figure class="page__section_content-left">
-                                <img class="me__photo" src="img/me_500.png">
-                        </figure>
-                        <div class="page__section_content-right page__section_content-me">
-                                <span class="me__name">
-                                        Ван ки Хот
-                                </span>
-                                <p class="me__description">Мне 25 лет, живу в Москве.</p>
-                                <p class="me__description">Старший fullstack-разработчик. Опыт работы более 5 лет,
-                                        специализируюсь на технологиях Microsoft и open-source решениях.</p>
-                                <p class="me__description">Магистр ИУ5 (АСОиУ) МГТУ им. Н.Э. Баумана, закончил с
-                                        отличием.</p>
-                                <div class="socials">
-                                        <a class="socials__btn socials__btn-hh"
-                                                href="https://hh.ru/resume/0b0041b1ff03eb88200039ed1f504e67337348"
-                                                target="_blank" title="Резюме"></a>
-                                        <a class="socials__btn socials__btn-email" href="mailto:quiteman@mail.ru"
-                                                target="_blank" title="Почта"></a>
-                                        <a class="socials__btn socials__btn-li"
-                                                href="https://www.linkedin.com/in/ivvitikhonov/" target="_blank"
-                                                title="Linkedin"></a>
-                                        <a class="socials__btn socials__btn-fb"
-                                                href="https://www.facebook.com/ivvitikhonov" target="_blank"
-                                                title="Facebook"></a>
+                        <div id="about__container" class="flex-container">
+                                <div class="photo"></div>
+                                <div class="info">
+                                        <span class="name">
+                                                Ван ки Хот
+                                        </span>
+                                        <p class="description">Мне 25 лет, живу в Москве.</p>
+                                        <p class="description">Магистр ИУ5 (АСОиУ) МГТУ им. Н.Э. Баумана, закончил с отличием.</p>
+                                        <p class="description">Старший fullstack-разработчик. Опыт работы более 5 лет, специализируюсь на технологиях Microsoft и open-source решениях.</p>
+                                        <div class="socials">
+                                                <a class="btn hh"
+                                                        href="https://hh.ru/resume/0b0041b1ff03eb88200039ed1f504e67337348"
+                                                        target="_blank" title="Резюме"></a>
+                                                <a class="btn email" href="mailto:quiteman@mail.ru" target="_blank"
+                                                        title="Почта"></a>
+                                                <a class="btn in" href="https://www.linkedin.com/in/ivvitikhonov/"
+                                                        target="_blank" title="Linkedin"></a>
+                                                <a class="btn fb" href="https://www.facebook.com/ivvitikhonov"
+                                                        target="_blank" title="Facebook"></a>
+                                        </div>
+                                        <p class="copy">&copy; ivvitikhonov, 2020 </p>
                                 </div>
-                                <p class="copy">&copy; ivvitikhonov, 2020 </p>
+                                <div id="nav">
+                                        <ul>
+                                                <li><a class="anchor" href="#tech">Технологии</a></li>
+                                                <li><a class="anchor" href="#certificates">Сертификация</a></li>
+                                                <li><a class="anchor" href="#projects">Проекты</a></li>
+                                                <li><a class="anchor" href="#soft">Software</a></li>
+                                        </ul>
+                                </div>
                         </div>
+
                 </section>
-                <div class="navigation">
-                        <ul>
-                                <li><a class="anchor" href="#tech">Технологии</a></li>
-                                <li><a class="anchor" href="#certificates">Сертификация</a></li>
-                                <li><a class="anchor" href="#projects">Проекты</a></li>
-                                <li><a class="anchor" href="#soft">Software</a></li>
-                        </ul>
-                </div>
         </main>
         <main>
                 <section class="page__section">

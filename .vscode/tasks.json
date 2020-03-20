@@ -30,6 +30,13 @@
             "command": "lessc less/certs.less css/certs.css",
             "group": "build",
             "problemMatcher": []
+        },
+        {
+            "label": "About",
+            "type": "shell",
+            "command": "lessc less/about.less css/about.css",
+            "group": "build",
+            "problemMatcher": []
         }
     ]
 }

@@ -24,84 +24,6 @@ main {
   color: #181e52;
   border-bottom: 2px solid;
 }
-.page__section_content-left {
-  float: left;
-}
-.page__section_content-right {
-  float: right;
-}
-.page__section_content-me {
-  padding: 50px 0;
-  max-width: 600px;
-}
-.me__photo {
-  background-color: white;
-  max-width: 500px;
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-}
-.me__name {
-  display: block;
-  font-weight: bold;
-  color: #181e52;
-  font-size: 50px;
-  padding-bottom: 20px;
-}
-.me__description {
-  line-height: 1.4;
-  margin: 10px 0;
-  font-weight: bold;
-  font-size: 25px;
-  padding-left: 2px;
-}
-.socials {
-  padding: 30px 0 0;
-}
-.socials a:last-child {
-  margin-right: 0;
-}
-.socials__btn {
-  height: 50px;
-  width: 50px;
-  color: #fff;
-  font-size: 0.875rem;
-  background: #ffa547;
-  border-radius: 7px;
-  border: none;
-  position: relative;
-  display: inline-block;
-  margin-right: 30px;
-  background-size: contain;
-}
-.socials__btn-hh {
-  background-image: url('../img/icon/resume.png');
-}
-.socials__btn-email {
-  background-image: url('../img/icon/mail.png');
-}
-.socials__btn-li {
-  background-image: url('../img/icon/linkedin.png');
-}
-.socials__btn-fb {
-  background-image: url('../img/icon/facebook.png');
-}
-.copy {
-  text-align: right;
-}
-.navigation {
-  padding: 30px;
-  color: #181e52;
-  font-size: 25px;
-  font-weight: bold;
-}
-.navigation ul {
-  padding: 0;
-}
-.navigation ul li {
-  display: inline;
-  padding: 0 25px;
-}
 .anchor {
   text-decoration: none;
 }
@@ -141,29 +63,34 @@ main {
   opacity: 1;
   visibility: visible;
 }
-@media screen and (max-width: 1200px) {
-  .page__section {
-    padding: 10px 10% 0;
-    margin-bottom: 0;
-    max-width: 600px;
-  }
-  .page__section_content-me {
-    padding: 0;
-  }
-  .me__name {
-    font-size: 30px;
-    padding: 10px 0;
-  }
-  .me__description {
-    font-size: 18px;
-  }
-  .copy {
-    display: block;
-    padding: 40px 0 10px;
-    text-align: right;
-  }
-  .socials__btn {
-    display: inline-block;
-    margin-right: 12px;
-  }
-}
+/* @media screen and (max-width: 1200px) {   
+     .page__section{
+         padding: 10px 10% 0;
+         margin-bottom: 0;
+         max-width: 600px;
+     }
+
+     .page__section_content-me{
+         padding: 0;
+     }
+  
+    .me__name{
+      font-size: 30px;
+      padding: 10px 0;
+    }
+  
+    .me__description{
+      font-size: 18px;
+    }
+  
+    .copy{
+      display: block;
+      padding: 40px 0 10px;
+      text-align: right;
+    }
+  
+    .socials__btn{
+      display: inline-block;
+      margin-right: 12px;;
+    }
+  } */

@@ -1,0 +1,96 @@
+#about__container{
+
+    &.flex-container{
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .photo{
+        background: url(../img/me_500.png);
+        background-size: contain;
+        background-color: white;
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+    }
+
+    .info{
+        width: 600px;
+
+        .name{
+            display: block;
+            font-size:50px;
+            padding-bottom: 20px;
+            color:#181e52;
+            font-weight: bold;
+        }
+    
+        .description{
+            font-weight: bold;
+            line-height: 1.4;
+            margin: 10px 0;
+            font-size:25px;
+            padding-left: 2px;
+        }
+
+        .socials{
+
+            padding: 30px 0 0;
+        
+            a:last-child{
+                margin-right: 0;
+            }
+        
+            .btn{
+                height: 50px;
+                width: 50px;
+                color: #fff;
+                font-size: .875rem;
+                background: #ffa547;
+                border-radius: 7px;
+                border: none;
+                position: relative;
+                display: inline-block;
+                margin-right: 30px;
+                background-size: contain;
+            
+                &.hh{
+                    background-image: url('../img/icon/resume.png');
+                }
+        
+                &.email{
+                    background-image: url('../img/icon/mail.png');
+                }
+        
+                &.in{
+                    background-image: url('../img/icon/linkedin.png');
+                }
+        
+                &.fb{
+                    background-image: url('../img/icon/facebook.png');
+                }
+            }
+        }
+        
+        .copy{
+            text-align: right;
+            margin-bottom: 0;
+        }
+    }
+
+    #nav{
+        padding: 50px;
+        font-size: 25px;
+        color:#181e52;
+        font-weight: bold;
+    
+        ul{
+            padding: 0;
+            li{
+                display: inline;
+                padding: 0 25px;
+            }
+        }
+    
+    }
+}
