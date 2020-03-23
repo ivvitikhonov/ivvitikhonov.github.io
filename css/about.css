@@ -12,6 +12,7 @@
 }
 #about__container .info {
   width: 600px;
+  margin-top: 15px;
 }
 #about__container .info .name {
   display: block;
