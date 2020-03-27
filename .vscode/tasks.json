@@ -11,7 +11,7 @@
             "problemMatcher": []
         },
         {
-            "label": "Tools Less Compile",
+            "label": "Tools",
             "type": "shell",
             "command": "lessc less/tools.less css/tools.css",
             "group": "build",
@@ -35,6 +35,13 @@
             "label": "About",
             "type": "shell",
             "command": "lessc less/about.less css/about.css",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Projects",
+            "type": "shell",
+            "command": "lessc less/projects.less css/projects.css",
             "group": "build",
             "problemMatcher": []
         }

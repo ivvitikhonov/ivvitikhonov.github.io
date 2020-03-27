@@ -1,87 +1,84 @@
-#certs {
+#certificates {
   text-align: center;
   margin-top: 35px;
 }
-#certs .flex-container {
-  display: flex;
-  flex-direction: row;
+#certificates .flex-container {
   justify-content: center;
-  flex-wrap: wrap;
 }
-#certs .hidden {
+#certificates .hidden {
   display: none;
 }
-#certs .sub-titles {
+#certificates .sub-titles {
   text-align: center;
   padding-bottom: 20px;
 }
-#certs .sub-titles .sub-title {
+#certificates .sub-titles .sub-title {
   display: inline;
   font-size: 22px;
-  color: #ffa547;
+  color: #181e52;
   font-weight: bold;
   cursor: pointer;
 }
-#certs .sub-titles .sub-title:first-child {
-  color: #181e52;
+#certificates .sub-titles .sub-title:first-child {
+  color: #ffa547;
 }
-#certs .sub-titles .sub-title-delimiter {
+#certificates .sub-titles .sub-title-delimiter {
   display: inline;
   font-size: 22px;
   color: black;
   font-weight: bold;
   padding: 0 25px;
 }
-#certs .sub-titles .sub-title:hover {
+#certificates .sub-titles .sub-title:hover {
   color: #181e52;
 }
-#certs .cert {
+#certificates .cert {
   width: 200px;
   height: 200px;
   margin: 30px;
 }
-#certs .cert.mcsd {
+#certificates .cert.mcsd {
   background: url(../img/certs/MCSD.png);
   background-size: contain;
 }
-#certs .cert.mcsa {
+#certificates .cert.mcsa {
   background: url(../img/certs/MCSA.png);
   background-size: contain;
 }
-#certs .cert.ms489 {
+#certificates .cert.ms489 {
   background: url(../img/certs/489.png);
   background-size: contain;
 }
-#certs .cert.ms488 {
+#certificates .cert.ms488 {
   background: url(../img/certs/488.png);
   background-size: contain;
 }
-#certs .cert.ms486 {
+#certificates .cert.ms486 {
   background: url(../img/certs/486.png);
   background-size: contain;
 }
-#certs .cert.ms480 {
+#certificates .cert.ms480 {
   background: url(../img/certs/480.png);
   background-size: contain;
 }
-#certs .cert.edb-pg-a {
+#certificates .cert.edb-pg-a {
   background: url(../img/certs/EDB_PG_A.png);
   background-size: contain;
 }
-#certs #course-items .course {
+#certificates #course-items .course {
   width: 500px;
   height: 354px;
   margin: 30px;
 }
-#certs #course-items .course_1 {
+#certificates #course-items .course_1 {
   background: url(../img/courses/course_1.jpg);
   background-size: contain;
 }
-#certs #course-items .course_2 {
+#certificates #course-items .course_2 {
   background: url(../img/courses/course_2.jpg);
   background-size: contain;
 }
-#certs #course-items .course_3 {
+#certificates #course-items .course_3 {
   background: url(../img/courses/course_3.jpg);
   background-size: contain;
 }

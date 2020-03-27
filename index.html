@@ -9,9 +9,9 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/about.css" />
         <link rel="stylesheet" type="text/css" href="css/main-stack.css" />
+        <link rel="stylesheet" type="text/css" href="css/certs.css" />
         <link rel="stylesheet" type="text/css" href="css/projects.css" />
         <link rel="stylesheet" type="text/css" href="css/tools.css" />
-        <link rel="stylesheet" type="text/css" href="css/certs.css" />
         <link rel="shortcut icon" href="img/favicon_transp.ico" type="image/x-icon">
         <script src="js/jquery-3.4.1.min.js"></script>
         <script src="js/code.js"></script>
@@ -46,15 +46,17 @@
         <a id="btn_up"></a>
         <main>
                 <section class="page__section">
-                        <div id="about__container" class="flex-container">
+                        <div id="about" class="flex-container">
                                 <div class="photo"></div>
                                 <div class="info">
                                         <span class="name">
                                                 Ван ки Хот
                                         </span>
                                         <p class="description">Мне 25 лет, живу в Москве.</p>
-                                        <p class="description">Магистр ИУ5 (АСОиУ) МГТУ им. Н.Э. Баумана, закончил с отличием.</p>
-                                        <p class="description">Старший fullstack-разработчик. Опыт работы более 5 лет, специализируюсь на технологиях Microsoft и open-source решениях.</p>
+                                        <p class="description">Магистр ИУ5 (АСОиУ) МГТУ им. Н.Э. Баумана, закончил с
+                                                отличием.</p>
+                                        <p class="description">Старший fullstack-разработчик. Опыт работы более 5 лет,
+                                                специализируюсь на технологиях Microsoft и open-source решениях.</p>
                                         <div class="socials">
                                                 <a class="btn hh"
                                                         href="https://hh.ru/resume/0b0041b1ff03eb88200039ed1f504e67337348"
@@ -71,8 +73,8 @@
                                 <div id="nav">
                                         <ul>
                                                 <li><a class="anchor" href="#tech">Технологии</a></li>
-                                                <li><a class="anchor" href="#certificates">Сертификация</a></li>
-                                                <li><a class="anchor" href="#projects">Проекты</a></li>
+                                                <li><a class="anchor" href="#cert">Сертификация</a></li>
+                                                <li><a class="anchor" href="#proj">Проекты</a></li>
                                                 <li><a class="anchor" href="#soft">Software</a></li>
                                         </ul>
                                 </div>
@@ -83,36 +85,36 @@
         <main>
                 <section class="page__section">
                         <div class="page__section-title"><a name="tech">Основной стек технологий</a></div>
-                        <div class="main-stack">
+                        <div id="main-stack">
                                 <div class="flex-container">
-                                        <div class="main-stack__row win">Windows</div>
-                                        <div class="main-stack__row lin ls3">Linux</div>
+                                        <div class="row win">Windows</div>
+                                        <div class="row lin ls3">Linux</div>
                                 </div>
                                 <div class="flex-container">
-                                        <div class="main-stack__row csharp">C#</div>
+                                        <div class="row csharp">C#</div>
                                 </div>
                                 <div class="flex-container">
-                                        <div class="main-stack__row sp">ASP .NET (SharePoint)</div>
-                                        <div class="main-stack__row net-mvc">ASP .NET MVC</div>
-                                        <div class="main-stack__row win-forms">Windows Forms</div>
-                                        <div class="main-stack__row net-core ls3">.NET Core MVC</div>
+                                        <div class="row sp">ASP .NET (SharePoint)</div>
+                                        <div class="row net-mvc">ASP .NET MVC</div>
+                                        <div class="row win-forms">Windows Forms</div>
+                                        <div class="row net-core ls3">.NET Core MVC</div>
                                 </div>
                                 <div class="flex-container">
-                                        <div class="main-stack__row ef">Entity Framework</div>
-                                        <div class="main-stack__row ado-net">ADO.NET</div>
-                                        <div class="main-stack__row ef-core ls3">Entity Framework Core</div>
-                                        <div class="main-stack__row se-redis ls3">StackExchange Redis</div>
+                                        <div class="row ef">Entity Framework</div>
+                                        <div class="row ado-net">ADO.NET</div>
+                                        <div class="row ef-core ls3">Entity Framework Core</div>
+                                        <div class="row se-redis ls3">StackExchange Redis</div>
                                 </div>
                                 <div class="flex-container">
-                                        <div class="main-stack__row ms-sql">Microsoft SQL Server</div>
-                                        <div class="main-stack__row pg ls3">Postgres</div>
-                                        <div class="main-stack__row redis ls3">Redis</div>
+                                        <div class="row ms-sql">Microsoft SQL Server</div>
+                                        <div class="row pg ls3">Postgres</div>
+                                        <div class="row redis ls3">Redis</div>
                                 </div>
                                 <div class="flex-container">
-                                        <div class="main-stack__row web">HTML, CSS + LESS, Javascript + jQuery
+                                        <div class="row web">HTML, CSS + LESS, Javascript + jQuery
                                                 (jquery-ui, ajax, handlebars, pdf.js)</div>
                                 </div>
-                                <div class="main-stack_legend">
+                                <div class="legend">
                                         <p>Опыт использования</p>
                                         <div class="duration mr3">более 3-х лет</div>
                                         <div class="duration ls3">менее 3-х лет</div>
@@ -122,8 +124,8 @@
         </main>
         <main>
                 <section class="page__section">
-                        <div class="page__section-title"><a name="certificates">Сертификация</a></div>
-                        <div id="certs">
+                        <div class="page__section-title"><a name="cert">Сертификация</a></div>
+                        <div id="certificates">
                                 <div class="sub-titles">
                                         <div class="sub-title" data-source="0">Сертификаты (7)</div>
                                         <div class="sub-title-delimiter">|</div>
@@ -148,10 +150,10 @@
         </main>
         <main>
                 <section class="page__section">
-                        <div class="page__section-title"><a name="projects">Проекты</a></div>
-                        <div class="projects">
+                        <div class="page__section-title"><a name="proj">Проекты</a></div>
+                        <div id="projects">
                                 <div class="flex-container">
-                                        <div class="projects__row">
+                                        <div class="row">
                                                 <table>
                                                         <tr>
                                                                 <td class="title">2019<br>н.в.</td>
@@ -159,7 +161,7 @@
                                                         </tr>
                                                         <tr>
                                                                 <td class="title count">2</td>
-                                                                <td class="projects__row-description">
+                                                                <td class="row__description">
                                                                         <ul>
                                                                                 <li>Миграция ИС «Удостоверяющий центр
                                                                                         Федерального казначейства»</li>
@@ -169,7 +171,7 @@
                                                         </tr>
                                                 </table>
                                         </div>
-                                        <div class="projects__row">
+                                        <div class="row">
                                                 <table>
                                                         <tr>
                                                                 <td class="title">2018<br>н.в.</td>
@@ -177,7 +179,7 @@
                                                         </tr>
                                                         <tr>
                                                                 <td class="title count">1</td>
-                                                                <td class="projects__row-description">
+                                                                <td class="row__description">
                                                                         <ul>
                                                                                 <li>
                                                                                         «Удостоверяющий центр
@@ -189,7 +191,7 @@
                                                         </tr>
                                                 </table>
                                         </div>
-                                        <div class="projects__row">
+                                        <div class="row">
                                                 <table>
                                                         <tr>
                                                                 <td class="title">2014<br>2018</td>
@@ -197,7 +199,7 @@
                                                         </tr>
                                                         <tr>
                                                                 <td class="title count">6</td>
-                                                                <td class="projects__row-description">
+                                                                <td class="row__description">
                                                                         Внутренние корпоративные порталы:
                                                                         <ul>
                                                                                 <li>ПАО «Россети»</li>
@@ -217,131 +219,131 @@
         <main>
                 <section class="page__section">
                         <div class="page__section-title"><a name="soft">Software</a></div>
-                        <div class="tools__container">
-                                <div class="tools__container-column">
-                                        <div class="tools__group">
-                                                <div class="tools__group-title">ОС</div>
-                                                <div class="tools__group-item">
+                        <div id="tools" class="flex-container">
+                                <div class="container-column">
+                                        <div class="group">
+                                                <div class="group__title">ОС</div>
+                                                <div class="group__item">
                                                         <div class="tool__logo win10"></div>
                                                         <div class="tool__title">Windows/Server</div>
                                                 </div>
-                                                <div class="tools__group-item">
+                                                <div class="group__item">
                                                         <div class="tool__logo ubuntu"></div>
                                                         <div class="tool__title">Ubuntu</div>
                                                 </div>
-                                                <div class="tools__group-item">
+                                                <div class="group__item">
                                                         <div class="tool__logo centos"></div>
                                                         <div class="tool__title">Centos</div>
                                                 </div>
                                         </div>
-                                        <div class="tools__group">
-                                                <div class="tools__group-title">Веб-серверы</div>
-                                                <div class="tools__group-item">
+                                        <div class="group">
+                                                <div class="group__title">Веб-серверы</div>
+                                                <div class="group__item">
                                                         <div class="tool__logo iis"></div>
                                                         <div class="tool__title">IIS</div>
                                                 </div>
-                                                <div class="tools__group-item">
+                                                <div class="group__item">
                                                         <div class="tool__logo apache"></div>
                                                         <div class="tool__title">Apache</div>
                                                 </div>
                                         </div>
                                 </div>
-                                <div class="tools__container-column">
-                                        <div class="tools__group">
-                                                <div class="tools__group-title">IDE</div>
-                                                <div class="tools__group-item">
+                                <div class="container-column">
+                                        <div class="group">
+                                                <div class="group__title">IDE</div>
+                                                <div class="group__item">
                                                         <div class="tool__logo vs"></div>
                                                         <div class="tool__title">Visual Studio</div>
                                                 </div>
-                                                <div class="tools__group-item">
+                                                <div class="group__item">
                                                         <div class="tool__logo vscode"></div>
                                                         <div class="tool__title">Visual Studio Code</div>
                                                 </div>
                                         </div>
-                                        <div class="tools__group">
-                                                <div class="tools__group-title">СУБД</div>
-                                                <div class="tools__group-item">
+                                        <div class="group">
+                                                <div class="group__title">СУБД</div>
+                                                <div class="group__item">
                                                         <div class="tool__logo sqlserver"></div>
                                                         <div class="tool__title">MS SQL Server, SSIS</div>
                                                 </div>
-                                                <div class="tools__group-item">
+                                                <div class="group__item">
                                                         <div class="tool__logo postgres"></div>
                                                         <div class="tool__title">Postgres</div>
                                                 </div>
-                                                <div class="tools__group-item">
+                                                <div class="group__item">
                                                         <div class="tool__logo redis"></div>
                                                         <div class="tool__title">Redis</div>
                                                 </div>
                                         </div>
                                 </div>
-                                <div class="tools__container-column">
-                                        <div class="tools__group">
-                                                <div class="tools__group-title">Виртуализация</div>
-                                                <div class="tools__group-item">
+                                <div class="container-column">
+                                        <div class="group">
+                                                <div class="group__title">Виртуализация</div>
+                                                <div class="group__item">
                                                         <div class="tool__logo vmware"></div>
                                                         <div class="tool__title">VMware</div>
                                                 </div>
-                                                <div class="tools__group-item">
+                                                <div class="group__item">
                                                         <div class="tool__logo vb"></div>
                                                         <div class="tool__title">VirtualBox</div>
                                                 </div>
                                         </div>
-                                        <div class="tools__group">
-                                                <div class="tools__group-title">CКВ</div>
-                                                <div class="tools__group-item">
+                                        <div class="group">
+                                                <div class="group__title">CКВ</div>
+                                                <div class="group__item">
                                                         <div class="tool__logo tfs"></div>
                                                         <div class="tool__title">TFS</div>
                                                 </div>
-                                                <div class="tools__group-item">
+                                                <div class="group__item">
                                                         <div class="tool__logo github"></div>
                                                         <div class="tool__title">GitHub</div>
                                                 </div>
-                                                <div class="tools__group-item">
+                                                <div class="group__item">
                                                         <div class="tool__logo git"></div>
                                                         <div class="tool__title">Git Bash</div>
                                                 </div>
                                         </div>
                                 </div>
-                                <div class="tools__container-column">
-                                        <div class="tools__group">
-                                                <div class="tools__group-title">Веб-тестирование</div>
-                                                <div class="tools__group-item">
+                                <div class="container-column">
+                                        <div class="group">
+                                                <div class="group__title">Веб-тестирование</div>
+                                                <div class="group__item">
                                                         <div class="tool__logo fiddler"></div>
                                                         <div class="tool__title">Fiddler</div>
                                                 </div>
-                                                <div class="tools__group-item">
+                                                <div class="group__item">
                                                         <div class="tool__logo postman"></div>
                                                         <div class="tool__title">Postman</div>
                                                 </div>
                                         </div>
-                                        <div class="tools__group">
-                                                <div class="tools__group-title">Визуализация</div>
-                                                <div class="tools__group-item">
+                                        <div class="group">
+                                                <div class="group__title">Визуализация</div>
+                                                <div class="group__item">
                                                         <div class="tool__logo visio"></div>
                                                         <div class="tool__title">Visio</div>
                                                 </div>
-                                                <div class="tools__group-item">
+                                                <div class="group__item">
                                                         <div class="tool__logo staruml"></div>
                                                         <div class="tool__title">StarUML</div>
                                                 </div>
                                         </div>
                                 </div>
-                                <div class="tools__container-column">
-                                        <div class="tools__group">
-                                                <div class="tools__group-title">Прочее</div>
-                                                <div class="tools__group-item">
+                                <div class="container-column">
+                                        <div class="group">
+                                                <div class="group__title">Прочее</div>
+                                                <div class="group__item">
                                                         <div class="tool__logo sp"></div>
                                                         <div class="tool__title">Sharepoint</div>
                                                 </div>
-                                                <div class="tools__group-item">
+                                                <div class="group__item">
                                                         <div class="tool__logo jira"></div>
                                                         <div class="tool__title">Jira</div>
                                                 </div>
-                                                <div class="tools__group-item">
+                                                <div class="group__item">
                                                         <div class="tool__logo ps"></div>
                                                         <div class="tool__title">Photoshop</div>
                                                 </div>
-                                                <div class="tools__group-item">
+                                                <div class="group__item">
                                                         <div class="tool__logo office"></div>
                                                         <div class="tool__title">MS Office</div>
                                                 </div>

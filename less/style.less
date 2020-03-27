@@ -16,6 +16,13 @@ main{
     align-items: center;
 }
 
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .page__section{
     width: 1200px;
     max-width: 1200px;
@@ -44,13 +51,14 @@ main{
 #btn_up {
     display: inline-block;
     background-color: #ffa547;
+    border: 2px solid #f0f0f0;
     width: 50px;
     height: 50px;
     text-align: center;
     border-radius: 4px;
     position: fixed;
     bottom: 50px;
-    right: 50px;
+    right: 30px;
     opacity: 0;
     visibility: hidden;
     z-index: 1000;

@@ -6,7 +6,7 @@ JsCode = (function () {
   that.init = function () {
     $(document).ready(function () {
       that.initScrollButton();
-      $("#certs .sub-title").click(that.selectCertsMode);
+      $("#certificates .sub-title").click(that.selectCertsMode);
     });
   }
 
@@ -31,13 +31,13 @@ JsCode = (function () {
     var $currentLink = $(this);
 
     var targetId = $currentLink.data("source");
-    var $targetBlock = $("#certs [data-target='" + targetId + "']");
+    var $targetBlock = $("#certificates [data-target='" + targetId + "']");
 
-    var $blocks = $("#certs [data-target]");
+    var $blocks = $("#certificates [data-target]");
     $blocks.addClass("hidden");
 
-    $("#certs [data-source]").css("color", "#ffa547");
-    $currentLink.css("color", "#181e52");
+    $("#certificates [data-source]").css("color", "#181e52");
+    $currentLink.css("color", "#ffa547");
 
     $targetBlock.removeClass("hidden");
   }

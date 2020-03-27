@@ -1,15 +1,8 @@
-/* Common */
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-/* main-stack */
-.main-stack {
+#main-stack {
   text-align: center;
   margin-top: 35px;
 }
-.main-stack__row {
+#main-stack .row {
   align-items: center;
   justify-content: center;
   display: flex;
@@ -22,59 +15,57 @@
   font-size: 18px;
   font-weight: bold;
 }
-.main-stack__row.ls3 {
+#main-stack .row.ls3 {
   background: #ffc147;
   border: 2px solid #ffa547;
 }
-.main-stack__row.win {
+#main-stack .row.win {
   width: 61%;
 }
-.main-stack__row.lin {
+#main-stack .row.lin {
   width: 30%;
 }
-.main-stack__row.csharp {
+#main-stack .row.csharp {
   width: 100%;
 }
-.main-stack__row.sp,
-.main-stack__row.net-mvc,
-.main-stack__row.win-forms {
+#main-stack .row.sp,
+#main-stack .row.net-mvc,
+#main-stack .row.win-forms {
   width: 14.3%;
 }
-.main-stack__row.net-core {
+#main-stack .row.net-core {
   width: 39.1%;
 }
-.main-stack__row.ef {
+#main-stack .row.ef {
   width: 44%;
 }
-.main-stack__row.ado-net {
+#main-stack .row.ado-net {
   width: 14%;
 }
-.main-stack__row.ef-core,
-.main-stack__row.se-redis,
-.main-stack__row.redis {
+#main-stack .row.ef-core,
+#main-stack .row.se-redis,
+#main-stack .row.redis {
   width: 12%;
 }
-.main-stack__row.ms-sql {
+#main-stack .row.ms-sql {
   width: 53.5%;
 }
-.main-stack__row.pg {
+#main-stack .row.pg {
   width: 21%;
 }
-.main-stack__row.web {
+#main-stack .row.web {
   width: 100%;
 }
-.main-stack_legend {
+#main-stack .legend {
   padding: 35px;
 }
-.main-stack_legend .duration {
-  width: 30px;
-  height: 30px;
+#main-stack .legend .duration {
   display: inline;
   padding: 15px;
 }
-.main-stack_legend .duration.mr3 {
+#main-stack .legend .duration.mr3 {
   background: #ffa547;
 }
-.main-stack_legend .duration.ls3 {
+#main-stack .legend .duration.ls3 {
   background: #ffc147;
 }
