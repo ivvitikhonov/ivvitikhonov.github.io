@@ -12,6 +12,15 @@
   margin-right: 10px;
   font-size: 18px;
 }
+#projects .row.grid {
+  display: grid;
+  grid-template-rows: 30% 70%;
+  grid-template-columns: 18% 82%;
+  align-items: center;
+}
+#projects .row.grid > div {
+  padding: 10px;
+}
 #projects .row ul {
   padding: 0;
 }
@@ -32,7 +41,7 @@
 #projects .row td {
   padding: 7px;
 }
-#projects .row__description {
+#projects .row .description {
   text-align: left;
   font-size: 18px;
 }
@@ -42,7 +51,29 @@
 }
 #projects .row .title.header {
   color: #ffa547;
+  text-align: left;
 }
 #projects .row .title.count {
   font-size: 50px;
+}
+@media screen and (max-width: 800px) {
+  #projects .row {
+    width: 100%;
+    padding: 0px 20px;
+  }
+  #projects .row.grid {
+    grid-template-rows: 18% 82%;
+    grid-template-columns: 100%;
+    text-align: left;
+  }
+  #projects .row.grid .title {
+    font-size: 22.8px;
+  }
+  #projects .row.grid .description {
+    font-size: 16px;
+  }
+  #projects .row.grid .year,
+  #projects .row.grid .count {
+    display: none;
+  }
 }

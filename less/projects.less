@@ -13,6 +13,18 @@
         margin-right: 10px;
         font-size: 18px;
 
+        &.grid{
+            display: grid;
+            grid-template-rows: 30% 70%;
+            grid-template-columns: 18% 82%;
+            align-items: center;
+             
+
+            & > div{
+                padding: 10px;
+            }
+        }
+
         ul{
             padding: 0;
         }
@@ -39,7 +51,7 @@
             padding: 7px;
         }
 
-        &__description{
+        .description{
             text-align: left;
             font-size: 18px;
         }
@@ -50,7 +62,8 @@
 
             
             &.header{
-                color: #ffa547
+                color: #ffa547;
+                text-align: left;
             }
             
 
@@ -58,7 +71,34 @@
                 font-size: 50px;
             }
         }
+    }
+}
 
+@media screen and (max-width: 800px)  {   
+    #projects {
+        .row{
+            width: 100%;
+            padding: 0px 20px;
+
+            &.grid{
+                grid-template-rows: 18% 82%;
+                grid-template-columns: 100%;
+
+                text-align: left;
+
+                .title{
+                    font-size: 22.8px;
+                }
+                
+                .description{
+                    font-size: 16px;
+                }
+
+                .year, .count{
+                    display: none;
+                }
+            }
+        }
 
     }
 }

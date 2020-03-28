@@ -77,3 +77,23 @@
   display: inline;
   padding: 0 25px;
 }
+@media screen and (max-width: 800px) {
+  #about {
+    margin-top: 35px;
+  }
+  #about .photo {
+    width: 250px !important;
+    height: 250px !important;
+  }
+  #about .info .name {
+    font-size: 38px;
+    text-align: center;
+  }
+  #about .info .description {
+    font-size: 19px;
+    text-align: justify;
+  }
+  #about .info .socials {
+    text-align: center;
+  }
+}

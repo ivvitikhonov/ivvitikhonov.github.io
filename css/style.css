@@ -74,12 +74,8 @@ main {
   .page__section {
     width: 90%;
   }
-  #about {
-    margin-top: 35px;
-  }
-  #about .photo {
-    width: 250px !important;
-    height: 250px !important;
+  .page__section-title {
+    font-size: 26.6px;
   }
   #tools .group__item {
     display: inline-block;
