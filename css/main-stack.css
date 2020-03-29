@@ -77,13 +77,16 @@
     width: 30% !important;
   }
   #main-stack .row.csharp {
-    width: 84% !important;
+    width: 80% !important;
   }
   #main-stack .row.web {
-    width: 84% !important;
+    width: 80% !important;
   }
   #main-stack .legend {
     display: flex;
     flex-direction: column;
+  }
+  #main-stack .legend .duration {
+    margin-bottom: 10px;
   }
 }
