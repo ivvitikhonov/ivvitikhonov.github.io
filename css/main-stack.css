@@ -69,3 +69,18 @@
 #main-stack .legend .duration.ls3 {
   background: #ffc147;
 }
+@media screen and (max-width: 800px) {
+  #main-stack .row {
+    width: 34% !important;
+  }
+  #main-stack .row.csharp {
+    width: 100% !important;
+  }
+  #main-stack .row.web {
+    width: 100% !important;
+  }
+  #main-stack .legend {
+    display: flex;
+    flex-direction: column;
+  }
+}
