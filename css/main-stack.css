@@ -70,14 +70,17 @@
   background: #ffc147;
 }
 @media screen and (max-width: 800px) {
+  #main-stack .flex-container {
+    justify-content: space-around;
+  }
   #main-stack .row {
     width: 34% !important;
   }
   #main-stack .row.csharp {
-    width: 100% !important;
+    width: 84% !important;
   }
   #main-stack .row.web {
-    width: 100% !important;
+    width: 84% !important;
   }
   #main-stack .legend {
     display: flex;
