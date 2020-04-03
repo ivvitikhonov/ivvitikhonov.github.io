@@ -70,23 +70,40 @@ main {
   opacity: 1;
   visibility: visible;
 }
+.small-screen {
+  display: none;
+}
+ul {
+  padding: 0;
+  line-height: 1.8;
+}
+ul li {
+  padding-bottom: 15px;
+  list-style: none;
+}
+ul li:before {
+  content: "✔";
+  color: limegreen;
+  font-weight: bold;
+  padding-right: 10px;
+  font-size: 20px;
+}
 @media screen and (max-width: 800px) {
+  #btn_up {
+    background-color: #181e52;
+    right: 10px;
+  }
   .page__section {
     width: 90%;
   }
   .page__section-title {
     font-size: 26.6px;
   }
-  #tools .group__item {
-    display: inline-block;
-  }
-  #tools .group__item .tool__title {
+  .big-screen {
     display: none;
   }
-  #tools .group {
-    padding: 10px 20px !important;
-  }
-  #tools .group__item {
-    padding: 10px 0 !important;
+  .small-screen {
+    display: initial;
+    font-size: 18px;
   }
 }

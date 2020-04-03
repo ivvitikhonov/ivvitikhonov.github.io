@@ -1,4 +1,4 @@
-#certificates{
+#certificates {
     text-align: center;
     margin-top: 35px;
 
@@ -6,98 +6,127 @@
         justify-content: center;
     }
 
-    & .hidden{
+    & .hidden {
         display: none;
     }
 
-    .sub-titles{
-        text-align: center;
+    .sub-titles {
+        text-align    : center;
         padding-bottom: 20px;
 
-        .sub-title{
-            display: inline;
+        .sub-title {
+            display  : inline;
             font-size: 22px;
-            color:#181e52;
-          
-            font-weight: bold;
-            cursor: pointer;
+            color    : #181e52;
 
-            &:first-child{
+            font-weight: bold;
+            cursor     : pointer;
+
+            &:first-child {
                 color: #ffa547;
             }
 
-            &-delimiter{
-                display: inline;
-                font-size: 22px;
-                color: black;
+            &-delimiter {
+                display    : inline;
+                font-size  : 22px;
+                color      : black;
                 font-weight: bold;
-                padding: 0 25px;
+                padding    : 0 25px;
             }
 
-            &:hover{
+            &:hover {
                 color: #181e52;
             }
         }
     }
 
     .cert{
-        width: 200px;
-        height: 200px;
-        margin: 30px;
-        
-        &.mcsd{
-            background: url(../img/certs/MCSD.png);
-            background-size: contain;
+        &.big-screen {
+            width : 200px;
+            height: 200px;
+            margin: 30px;
+
+            &.mcsd {
+                background       : url(../img/certs/MCSD.png);
+                background-size  : contain;
+                background-repeat: no-repeat;
+            }
+
+            &.mcsa {
+                background       : url(../img/certs/MCSA.png);
+                background-size  : contain;
+                background-repeat: no-repeat;
+            }
+
+            &.ms489 {
+                background       : url(../img/certs/489.png);
+                background-size  : contain;
+                background-repeat: no-repeat;
+            }
+
+            &.ms488 {
+                background       : url(../img/certs/488.png);
+                background-size  : contain;
+                background-repeat: no-repeat;
+            }
+
+            &.ms486 {
+                background       : url(../img/certs/486.png);
+                background-size  : contain;
+                background-repeat: no-repeat;
+            }
+
+            &.ms480 {
+                background       : url(../img/certs/480.png);
+                background-size  : contain;
+                background-repeat: no-repeat;
+            }
+
+            &.edb-pg-a {
+                background       : url(../img/certs/EDB_PG_A.png);
+                background-size  : contain;
+                background-repeat: no-repeat;
+            }
         }
 
-        &.mcsa{
-            background: url(../img/certs/MCSA.png);
-            background-size: contain;
-        }
-
-        &.ms489{
-            background: url(../img/certs/489.png);
-            background-size: contain;
-        }
-
-        &.ms488{
-            background: url(../img/certs/488.png);
-            background-size: contain;
-        }
-
-        &.ms486{
-            background: url(../img/certs/486.png);
-            background-size: contain;
-        }
-
-        &.ms480{
-            background: url(../img/certs/480.png);
-            background-size: contain;
-        }
-        
-        &.edb-pg-a{
-            background: url(../img/certs/EDB_PG_A.png);
-            background-size: contain;
+        &.small-screen{
+            padding: 0 20px;
+            text-align: left;        
         }
     }
 
-    #course-items{
-        .course{
-            width: 500px;
-            height: 354px;
-            margin: 30px;
+    #course-items {
+        .course {
+            &.big-screen{
+                width : 500px;
+                height: 354px;
+                margin: 30px;
+            }
+
+            &.small-screen{
+                padding: 0 20px;
+                text-align: left;         
+            }
         }
-        .course_1{
-            background: url(../img/courses/course_1.jpg);
-            background-size: contain;
+
+        .course_1 {
+            background       : url(../img/courses/course_1.jpg);
+            background-size  : contain;
+            background-repeat: no-repeat;
         }
-        .course_2{
-            background: url(../img/courses/course_2.jpg);
-            background-size: contain;
+
+        .course_2 {
+            background       : url(../img/courses/course_2.jpg);
+            background-size  : contain;
+            background-repeat: no-repeat;
         }
-        .course_3{
-            background: url(../img/courses/course_3.jpg);
-            background-size: contain;
+
+        .course_3 {
+            background       : url(../img/courses/course_3.jpg);
+            background-size  : contain;
+            background-repeat: no-repeat;
         }
     }
 }
+
+@media screen and (max-width: 800px) {}

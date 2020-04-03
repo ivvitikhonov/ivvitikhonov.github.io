@@ -32,53 +32,71 @@
 #certificates .sub-titles .sub-title:hover {
   color: #181e52;
 }
-#certificates .cert {
+#certificates .cert.big-screen {
   width: 200px;
   height: 200px;
   margin: 30px;
 }
-#certificates .cert.mcsd {
+#certificates .cert.big-screen.mcsd {
   background: url(../img/certs/MCSD.png);
   background-size: contain;
+  background-repeat: no-repeat;
 }
-#certificates .cert.mcsa {
+#certificates .cert.big-screen.mcsa {
   background: url(../img/certs/MCSA.png);
   background-size: contain;
+  background-repeat: no-repeat;
 }
-#certificates .cert.ms489 {
+#certificates .cert.big-screen.ms489 {
   background: url(../img/certs/489.png);
   background-size: contain;
+  background-repeat: no-repeat;
 }
-#certificates .cert.ms488 {
+#certificates .cert.big-screen.ms488 {
   background: url(../img/certs/488.png);
   background-size: contain;
+  background-repeat: no-repeat;
 }
-#certificates .cert.ms486 {
+#certificates .cert.big-screen.ms486 {
   background: url(../img/certs/486.png);
   background-size: contain;
+  background-repeat: no-repeat;
 }
-#certificates .cert.ms480 {
+#certificates .cert.big-screen.ms480 {
   background: url(../img/certs/480.png);
   background-size: contain;
+  background-repeat: no-repeat;
 }
-#certificates .cert.edb-pg-a {
+#certificates .cert.big-screen.edb-pg-a {
   background: url(../img/certs/EDB_PG_A.png);
   background-size: contain;
+  background-repeat: no-repeat;
 }
-#certificates #course-items .course {
+#certificates .cert.small-screen {
+  padding: 0 20px;
+  text-align: left;
+}
+#certificates #course-items .course.big-screen {
   width: 500px;
   height: 354px;
   margin: 30px;
 }
+#certificates #course-items .course.small-screen {
+  padding: 0 20px;
+  text-align: left;
+}
 #certificates #course-items .course_1 {
   background: url(../img/courses/course_1.jpg);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 #certificates #course-items .course_2 {
   background: url(../img/courses/course_2.jpg);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 #certificates #course-items .course_3 {
   background: url(../img/courses/course_3.jpg);
   background-size: contain;
+  background-repeat: no-repeat;
 }

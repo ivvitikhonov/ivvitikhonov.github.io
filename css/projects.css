@@ -21,20 +21,6 @@
 #projects .row.grid > div {
   padding: 10px;
 }
-#projects .row ul {
-  padding: 0;
-}
-#projects .row li {
-  padding-bottom: 8px;
-  list-style-type: none;
-}
-#projects .row li:before {
-  content: "✔";
-  color: limegreen;
-  font-weight: bold;
-  padding-right: 10px;
-  font-size: 20px;
-}
 #projects .row td:nth-child(2) {
   text-align: left;
 }
