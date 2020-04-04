@@ -1,6 +1,4 @@
 #tools{
-        margin-top: 35px;
-
         .flex-container{
             justify-content: space-around;
         }
@@ -8,10 +6,8 @@
     .group{
         padding: 20px 40px;
 
-        .title{
+        &>.title{
             color: #ffa547;
-            font-weight: bold;
-            font-size: 22px;
         }
     
         .item{
@@ -122,9 +118,7 @@
             }
 
             .title{
-                color:black;
                 font-weight: bold;
-                font-size: 18px;
             }
         }
     }
@@ -132,15 +126,28 @@
 
 @media screen and (max-width: 800px)  { 
     #tools{
+        &.flex-container{
+            flex-direction: column;
+        }
+
         .group{
             padding: 0px 20px !important;
+            display: block;
+
+            &>.title{
+                padding: 10px 0;
+            }
 
             .item{
                 display: inline-block;
-                padding: 10px 0 !important;
+                padding: 10px 5px !important;
+
+                .logo{
+                    display: none;
+                }
 
                 .title{
-                    display: none;
+                    font-weight: normal;
                 }
             }
         }

@@ -11,7 +11,7 @@ JsCode = (function () {
   }
 
   that.initScrollButton = function(){
-    var btn = $('#btn_up');
+    var btn = $('#up');
 
     $(window).scroll(function () {
       if ($(window).scrollTop() > 300) {

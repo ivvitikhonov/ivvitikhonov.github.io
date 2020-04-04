@@ -6,6 +6,20 @@ body {
   margin: 0;
   background-color: #f0f0f0;
 }
+.t1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181e52;
+  border-bottom: 2px solid;
+}
+.t2 {
+  font-size: 26px;
+  font-weight: bold;
+}
+.t3 {
+  font-size: 20px;
+  color: black;
+}
 main {
   min-height: 100vh;
   display: flex;
@@ -19,16 +33,13 @@ main {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.page__section {
+.section {
   width: 1200px;
   max-width: 1200px;
   clear: both;
 }
-.page__section-title {
-  font-size: 35px;
-  font-weight: bold;
-  color: #181e52;
-  border-bottom: 2px solid;
+.section .block {
+  margin: 35px 0;
 }
 .anchor {
   text-decoration: none;
@@ -40,7 +51,7 @@ main {
 .anchor:hover {
   color: #ffa547;
 }
-#btn_up {
+#up {
   display: inline-block;
   background-color: #ffa547;
   border: 2px solid #f0f0f0;
@@ -55,18 +66,18 @@ main {
   visibility: hidden;
   z-index: 1000;
 }
-#btn_up::after {
+#up::after {
   content: "\21EA";
   font-size: 40px;
   line-height: 50px;
   color: #fff;
 }
-#btn_up:hover,
-#btn_up:active {
+#up:hover,
+#up:active {
   cursor: pointer;
   background-color: #181e52;
 }
-#btn_up.show {
+#up.show {
   opacity: 1;
   visibility: visible;
 }
@@ -89,21 +100,27 @@ ul li:before {
   font-size: 20px;
 }
 @media screen and (max-width: 800px) {
-  #btn_up {
+  #up {
     background-color: #181e52;
     right: 10px;
   }
-  .page__section {
-    width: 90%;
-  }
-  .page__section-title {
+  .t1 {
     font-size: 23px;
+  }
+  .t2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .t3 {
+    font-size: 18px;
+  }
+  .section {
+    width: 90%;
   }
   .big-screen {
     display: none;
   }
   .small-screen {
     display: initial;
-    font-size: 18px;
   }
 }

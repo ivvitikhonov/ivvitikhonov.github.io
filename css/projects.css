@@ -1,6 +1,5 @@
 #projects {
   text-align: center;
-  margin-top: 35px;
 }
 #projects .row {
   width: 45%;
@@ -31,10 +30,6 @@
   text-align: left;
   font-size: 18px;
 }
-#projects .row .title {
-  font-size: 30px;
-  font-weight: bold;
-}
 #projects .row .title.header {
   color: #ffa547;
   text-align: left;
@@ -52,11 +47,8 @@
     grid-template-columns: 100%;
     text-align: left;
   }
-  #projects .row.grid .title {
-    font-size: 22.8px;
-  }
-  #projects .row.grid .description {
-    font-size: 16px;
+  #projects .row.grid > div {
+    padding: 0 10px;
   }
   #projects .row.grid .year,
   #projects .row.grid .count {

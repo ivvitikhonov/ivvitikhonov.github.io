@@ -1,6 +1,5 @@
 #main-stack {
   text-align: center;
-  margin-top: 35px;
 }
 #main-stack .row {
   align-items: center;
@@ -12,7 +11,6 @@
   margin-bottom: 10px;
   margin-right: 10px;
   background: #ffa547;
-  font-size: 18px;
   font-weight: bold;
 }
 #main-stack .row.ls3 {

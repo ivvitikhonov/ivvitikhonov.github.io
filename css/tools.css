@@ -1,16 +1,11 @@
-#tools {
-  margin-top: 35px;
-}
 #tools .flex-container {
   justify-content: space-around;
 }
 #tools .group {
   padding: 20px 40px;
 }
-#tools .group .title {
+#tools .group > .title {
   color: #ffa547;
-  font-weight: bold;
-  font-size: 22px;
 }
 #tools .group .item {
   background-repeat: no-repeat;
@@ -91,19 +86,27 @@
   background-image: url('../img/tools/sp_64.png');
 }
 #tools .group .item .title {
-  color: black;
   font-weight: bold;
-  font-size: 18px;
 }
 @media screen and (max-width: 800px) {
+  #tools.flex-container {
+    flex-direction: column;
+  }
   #tools .group {
     padding: 0px 20px !important;
+    display: block;
+  }
+  #tools .group > .title {
+    padding: 10px 0;
   }
   #tools .group .item {
     display: inline-block;
-    padding: 10px 0 !important;
+    padding: 10px 5px !important;
+  }
+  #tools .group .item .logo {
+    display: none;
   }
   #tools .group .item .title {
-    display: none;
+    font-weight: normal;
   }
 }

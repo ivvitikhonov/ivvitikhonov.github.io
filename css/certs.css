@@ -1,6 +1,5 @@
 #certificates {
   text-align: center;
-  margin-top: 35px;
 }
 #certificates .flex-container {
   justify-content: center;
@@ -14,9 +13,7 @@
 }
 #certificates .sub-titles .sub-title {
   display: inline;
-  font-size: 22px;
   color: #181e52;
-  font-weight: bold;
   cursor: pointer;
 }
 #certificates .sub-titles .sub-title:first-child {
