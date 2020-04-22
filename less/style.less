@@ -22,7 +22,7 @@ body {
 
 .t3 {
   font-size: 20px;
-  color: black;
+  color    : black;
 }
 
 main {
@@ -51,7 +51,6 @@ main {
 }
 
 .anchor {
-  text-decoration: none;
 
   &:link,
   &:visited {
@@ -119,12 +118,35 @@ ul {
   }
 }
 
+a {
+  text-decoration: none;
+}
+
+.lang {
+  width      : 90%;
+  font-weight: bold;
+  position   : absolute;
+  top        : 50px;
+
+  a {
+    color: #181e52;
+
+    &:visited {
+      color: #181e52;
+    }
+
+    &:first-child {
+      color: #ffa547;
+    }
+  }
+}
+
 @media screen and (max-width: 800px) {
   #up {
     background-color: #181e52;
     right           : 10px;
   }
-  
+
   .t1 {
     font-size: 23px;
   }
@@ -147,6 +169,10 @@ ul {
   }
 
   .small-screen {
-    display  : initial;
+    display: initial;
+  }
+
+  .lang {
+    top: 20px;
   }
 }

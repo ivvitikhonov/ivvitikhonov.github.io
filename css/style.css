@@ -41,9 +41,6 @@ main {
 .section .block {
   margin: 35px 0;
 }
-.anchor {
-  text-decoration: none;
-}
 .anchor:link,
 .anchor:visited {
   color: #181e52;
@@ -99,6 +96,24 @@ ul li:before {
   padding-right: 10px;
   font-size: 20px;
 }
+a {
+  text-decoration: none;
+}
+.lang {
+  width: 90%;
+  font-weight: bold;
+  position: absolute;
+  top: 50px;
+}
+.lang a {
+  color: #181e52;
+}
+.lang a:visited {
+  color: #181e52;
+}
+.lang a:first-child {
+  color: #ffa547;
+}
 @media screen and (max-width: 800px) {
   #up {
     background-color: #181e52;
@@ -122,5 +137,8 @@ ul li:before {
   }
   .small-screen {
     display: initial;
+  }
+  .lang {
+    top: 20px;
   }
 }
