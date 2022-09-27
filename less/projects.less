@@ -1,78 +1,87 @@
+#projects {
+  text-align: center;
 
-#projects{
-    text-align: center;
+  .row {
+    width: 45%;
+    align-items: center;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 18px;
 
-    .row{
-        width: 45%;
-        align-items: center;
-        display: flex;
-        align-items: flex-start;
-        padding: 20px;
-        margin-bottom: 10px;
-        margin-right: 10px;
-        font-size: 18px;
+    &.grid {
+      display: grid;
+      grid-template-rows: 30% 70%;
+      grid-template-columns: 18% 82%;
+      align-items: center;
 
-        &.grid{
-            display: grid;
-            grid-template-rows: 30% 70%;
-            grid-template-columns: 18% 82%;
-            align-items: center;
-             
-
-            & > div{
-                padding: 10px;
-            }
-        }
-
-        td:nth-child(2){
-            text-align: left;
-        }
-
-
-        td{
-            padding: 7px;
-        }
-
-        .description{
-            text-align: left;
-            font-size: 18px;
-        }
-
-        .title{           
-            &.header{
-                color: #ffa547;
-                text-align: left;
-            }
-            
-
-            &.count{
-                font-size: 50px;
-            }
-        }
+      & > div {
+        padding: 10px;
+      }
     }
+
+    td:nth-child(2) {
+      text-align: left;
+    }
+
+    td {
+      padding: 7px;
+    }
+
+    .description {
+      text-align: left;
+      font-size: 18px;
+
+      .tags {
+        display: flex;
+        flex-flow: wrap;
+
+        span {
+          border: 1px solid orange;
+          border-radius: 10px 10px;
+          padding: 5px;
+          margin-bottom: 5px;
+          margin-right: 5px;
+        }
+      }
+    }
+
+    .title {
+      &.header {
+        color: #ffa547;
+        text-align: left;
+      }
+
+      &.count {
+        font-size: 50px;
+      }
+    }
+  }
 }
 
-@media screen and (max-width: 800px)  {   
-    #projects {
-        .row{
-            width: 100%;
-            padding: 0px 20px;
+@media screen and (max-width: 800px) {
+  #projects {
+    .row {
+      width: 100%;
+      padding: 0px 20px;
 
-            &.grid{
-                grid-template-rows: 18% 82%;
-                grid-template-columns: 100%;
+      &.grid {
+        grid-template-rows: 18% 82%;
+        grid-template-columns: 100%;
 
-                &>div{
-                    padding: 0 10px;
-                }
-
-                text-align: left;
-
-                .year, .count{
-                    display: none;
-                }
-            }
+        & > div {
+          padding: 0 10px;
         }
 
+        text-align: left;
+
+        .year,
+        .count {
+          display: none;
+        }
+      }
     }
+  }
 }

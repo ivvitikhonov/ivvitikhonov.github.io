@@ -18,10 +18,10 @@
   border: 2px solid #ffa547;
 }
 #main-stack .row.win {
-  width: 61%;
+  width: 34%;
 }
 #main-stack .row.lin {
-  width: 30%;
+  width: 57%;
 }
 #main-stack .row.csharp {
   width: 100%;
@@ -29,27 +29,28 @@
 #main-stack .row.sp,
 #main-stack .row.net-mvc,
 #main-stack .row.win-forms {
-  width: 14.3%;
+  width: 8%;
 }
 #main-stack .row.net-core {
-  width: 39.1%;
+  width: 57.1%;
 }
-#main-stack .row.ef {
-  width: 44%;
-}
+#main-stack .row.ef,
 #main-stack .row.ado-net {
-  width: 14%;
+  width: 14.5%;
 }
 #main-stack .row.ef-core,
+#main-stack .row.nhib,
+#main-stack .row.sql-stored,
 #main-stack .row.se-redis,
-#main-stack .row.redis {
-  width: 12%;
+#main-stack .row.redis,
+#main-stack .row.oracle {
+  width: 10.7%;
 }
 #main-stack .row.ms-sql {
-  width: 53.5%;
+  width: 54.8%;
 }
 #main-stack .row.pg {
-  width: 21%;
+  width: 5%;
 }
 #main-stack .row.web {
   width: 100%;

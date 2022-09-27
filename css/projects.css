@@ -30,6 +30,17 @@
   text-align: left;
   font-size: 18px;
 }
+#projects .row .description .tags {
+  display: flex;
+  flex-flow: wrap;
+}
+#projects .row .description .tags span {
+  border: 1px solid orange;
+  border-radius: 10px 10px;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
 #projects .row .title.header {
   color: #ffa547;
   text-align: left;

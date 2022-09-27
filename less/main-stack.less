@@ -1,116 +1,117 @@
-#main-stack{
-    text-align: center;
+#main-stack {
+  text-align: center;
 
-    .row{
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        height: 50px;
-        border: 2px solid rgb(255,193,71);
-        padding: 20px;
+  .row {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    border: 2px solid rgb(255, 193, 71);
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background: rgb(255, 165, 71);
+    font-weight: bold;
+
+    &.ls3 {
+      background: rgb(255, 193, 71);
+      border: 2px solid rgb(255, 165, 71);
+    }
+
+    &.win {
+      width: 34%;
+    }
+
+    &.lin {
+      width: 57%;
+    }
+
+    &.csharp {
+      width: 100%;
+    }
+
+    &.sp,
+    &.net-mvc,
+    &.win-forms {
+      width: 8%;
+    }
+
+    &.net-core {
+      width: 57.1%;
+    }
+
+    &.ef,
+    &.ado-net {
+      width: 14.5%;
+    }
+
+    &.ef-core,
+    &.nhib,
+    &.sql-stored,
+    &.se-redis,
+    &.redis,
+    &.oracle {
+      width: 10.7%;
+    }
+
+    &.ms-sql {
+      width: 54.8%;
+    }
+
+    &.pg {
+      width: 5%;
+    }
+
+    &.web {
+      width: 100%;
+    }
+  }
+
+  .legend {
+    padding: 35px;
+
+    .duration {
+      display: inline;
+      padding: 15px;
+
+      &.mr3 {
+        background: rgb(255, 165, 71);
+      }
+
+      &.ls3 {
+        background: rgb(255, 193, 71);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 800px) {
+  #main-stack {
+    .flex-container {
+      justify-content: space-around;
+    }
+    .row {
+      width: 30% !important;
+
+      &.csharp {
+        width: 80% !important;
+      }
+
+      &.web {
+        width: 80% !important;
+      }
+    }
+
+    .legend {
+      display: flex;
+      flex-direction: column;
+
+      .duration {
         margin-bottom: 10px;
-        margin-right: 10px;
-        background: rgb(255,165,71);
-        font-weight: bold;
-
-        &.ls3{
-            background: rgb(255,193,71);
-            border: 2px solid rgb(255,165,71);
-        }
-
-        &.win{
-            width: 61%;
-        }
-
-        &.lin{
-            width: 30%;
-        }
-
-        &.csharp{
-            width:100%;
-        }
-
-        &.sp, &.net-mvc, &.win-forms{
-            width: 14.3%;
-        }
-
-        &.net-core{
-            width: 39.1%;
-        }
-
-        &.ef{
-            width: 44%;
-        } 
-        
-        &.ado-net{
-           width: 14%;
-        }
-
-        &.ef-core, &.se-redis, &.redis{
-            width: 12%;
-        }
-
-        &.ms-sql{
-            width: 53.5%;
-        }
-
-        &.pg{
-            width: 21%;
-        }
-
-        &.web{
-            width: 100%;
-        }
+      }
     }
-
-    .legend{
-        padding: 35px;
-        
-        .duration{
-            display: inline;
-            padding: 15px;
-
-            &.mr3
-            {
-                background: rgb(255,165,71); 
-            }
-
-            &.ls3{
-                background:rgb(255,193,71);
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 800px){
-
-}
-
-@media screen and (max-width: 800px)  {
-   #main-stack 
-   {
-       .flex-container{
-           justify-content: space-around;
-       }
-       .row{
-            width: 30% !important;
-
-            &.csharp{
-                width: 80% !important;
-            }
-
-            &.web{
-                width: 80% !important;
-            }
-        }
-
-        .legend{
-            display: flex;
-            flex-direction: column;
-
-            .duration{
-                margin-bottom: 10px;
-            }
-        }
-    } 
+  }
 }
